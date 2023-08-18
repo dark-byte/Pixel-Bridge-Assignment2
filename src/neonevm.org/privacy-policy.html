@@ -1,0 +1,872 @@
+<!doctype html>
+<html data-n-head-ssr lang="en" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  
+<!-- Mirrored from neonevm.org/privacy-policy by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Jun 2023 09:20:21 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head >
+    <title>Neon Labs</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1"><meta data-n-head="ssr" data-hid="description" name="description" content=""><meta data-n-head="ssr" name="format-detection" content="telephone=no"><link data-n-head="ssr" rel="apple-touch-icon" type="image/png" href="favicons/apple-touch-icon.png"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="favicons/favicon.ico"><link data-n-head="ssr" rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16"><link data-n-head="ssr" rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32"><link data-n-head="ssr" rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192"><link data-n-head="ssr" rel="icon" type="image/png" href="favicons/android-chrome-512x512.png" sizes="512x512"><link data-n-head="ssr" data-hid="gf-prefetch" rel="dns-prefetch" href="https://fonts.gstatic.com/"><link data-n-head="ssr" data-hid="gf-preconnect" rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link data-n-head="ssr" data-hid="gf-preload" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&amp;display=swap"><script data-n-head="ssr" data-hid="gf-script">(function(){var l=document.createElement('link');l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&amp;display=swap";document.querySelector("head").appendChild(l);})();</script><noscript data-n-head="ssr" data-hid="gf-noscript"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&amp;display=swap"></noscript><link rel="preload" href="_/backend/public/37b1687.js" as="script"><link rel="preload" href="_/backend/public/ed00de5.js" as="script"><link rel="preload" href="_/backend/public/38efeaa.js" as="script"><link rel="preload" href="_/backend/public/e66d397.js" as="script"><link rel="preload" href="_/backend/public/d05afaf.js" as="script"><style data-vue-ssr-id="54b08540:0 32ea8ad1:0 0d8b0c4d:0 53f61d5f:0 22e0066e:0 c5cb8dcc:0 2d971319:0 12b0f2f0:0 30b9341c:0 5eb140f6:0 a80d302a:0 17ea04ec:0 abcdcaa2:0">/*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com*//*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+
+/*
+Document
+========
+*/
+
+/**
+Use a better box model (opinionated).
+*/
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+/**
+Use a more readable tab size (opinionated).
+*/
+
+html {
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	   tab-size: 4;
+}
+
+/**
+1. Correct the line height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+*/
+
+html {
+	line-height: 1.15; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+Sections
+========
+*/
+
+/**
+Remove the margin in all browsers.
+*/
+
+body {
+	margin: 0;
+}
+
+/**
+Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+*/
+
+body {
+	font-family:
+		system-ui,
+		-apple-system, /* Firefox supports this but not yet `system-ui` */
+		'Segoe UI',
+		Roboto,
+		Helvetica,
+		Arial,
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji';
+}
+
+/*
+Grouping content
+================
+*/
+
+/**
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+*/
+
+hr {
+	height: 0; /* 1 */
+	color: inherit; /* 2 */
+}
+
+/*
+Text-level semantics
+====================
+*/
+
+/**
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr[title] {
+	-webkit-text-decoration: underline dotted;
+	        text-decoration: underline dotted;
+}
+
+/**
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+/**
+1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+2. Correct the odd 'em' font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+	font-family:
+		ui-monospace,
+		SFMono-Regular,
+		Consolas,
+		'Liberation Mono',
+		Menlo,
+		monospace; /* 1 */
+	font-size: 1em; /* 2 */
+}
+
+/**
+Add the correct font size in all browsers.
+*/
+
+small {
+	font-size: 80%;
+}
+
+/**
+Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+/*
+Tabular data
+============
+*/
+
+/**
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+*/
+
+table {
+	text-indent: 0; /* 1 */
+	border-color: inherit; /* 2 */
+}
+
+/*
+Forms
+=====
+*/
+
+/**
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit; /* 1 */
+	font-size: 100%; /* 1 */
+	line-height: 1.15; /* 1 */
+	margin: 0; /* 2 */
+}
+
+/**
+Remove the inheritance of text transform in Edge and Firefox.
+1. Remove the inheritance of text transform in Firefox.
+*/
+
+button,
+select { /* 1 */
+	text-transform: none;
+}
+
+/**
+Correct the inability to style clickable types in iOS and Safari.
+*/
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button;
+}
+
+/**
+Remove the inner border and padding in Firefox.
+*/
+
+::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+/**
+Restore the focus styles unset by the previous rule.
+*/
+
+:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+/**
+Remove the additional ':invalid' styles in Firefox.
+See: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737
+*/
+
+:-moz-ui-invalid {
+	box-shadow: none;
+}
+
+/**
+Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
+*/
+
+legend {
+	padding: 0;
+}
+
+/**
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+	vertical-align: baseline;
+}
+
+/**
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/**
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+	-webkit-appearance: textfield; /* 1 */
+	outline-offset: -2px; /* 2 */
+}
+
+/**
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+/**
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to 'inherit' in Safari.
+*/
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button; /* 1 */
+	font: inherit; /* 2 */
+}
+
+/*
+Interactive
+===========
+*/
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+	display: list-item;
+}/**
+ * Manually forked from SUIT CSS Base: https://github.com/suitcss/base
+ * A thin layer on top of normalize.css that provides a starting point more
+ * suitable for web applications.
+ */
+
+/**
+ * Removes the default spacing and border for appropriate elements.
+ */
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  background-image: none;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Tailwind custom reset styles
+ */
+
+/**
+ * 1. Use the user's configured `sans` font-family (with Tailwind's default
+ *    sans-serif font stack as a fallback) as a sane default.
+ * 2. Use Tailwind's default "normal" line-height so the user isn't forced
+ *    to override it to ensure consistency even when using the default theme.
+ */
+
+html {
+  font-family: Inter, sans-serif; /* 1 */
+  line-height: 1.5; /* 2 */
+}
+
+
+/**
+ * Inherit font-family and line-height from `html` so users can set them as
+ * a class directly on the `html` element.
+ */
+
+body {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+/**
+ * 1. Prevent padding and border from affecting element width.
+ *
+ *    We used to set this in the html element and inherit from
+ *    the parent element for everything else. This caused issues
+ *    in shadow-dom-enhanced elements like <details> where the content
+ *    is wrapped by a div with box-sizing set to `content-box`.
+ *
+ *    https://github.com/mozdevs/cssremedy/issues/4
+ *
+ *
+ * 2. Allow adding a border to an element by just adding a border-width.
+ *
+ *    By default, the way the browser specifies that an element should have no
+ *    border is by setting it's border-style to `none` in the user-agent
+ *    stylesheet.
+ *
+ *    In order to easily add borders to elements by just setting the `border-width`
+ *    property, we change the default border-style for all elements to `solid`, and
+ *    use border-width to hide them instead. This way our `border` utilities only
+ *    need to set the `border-width` property instead of the entire `border`
+ *    shorthand, making our border utilities much more straightforward to compose.
+ *
+ *    https://github.com/tailwindcss/tailwindcss/pull/116
+ */
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: currentColor; /* 2 */
+}
+
+/*
+ * Ensure horizontal rules are visible by default
+ */
+
+hr {
+  border-top-width: 1px;
+}
+
+/**
+ * Undo the `border-style: none` reset that Normalize applies to images so that
+ * our `border-{width}` utilities have the expected effect.
+ *
+ * The Normalize reset is unnecessary for us since we default the border-width
+ * to 0 on all elements.
+ *
+ * https://github.com/tailwindcss/tailwindcss/issues/362
+ */
+
+img {
+  border-style: solid;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/**
+ * Override legacy focus reset from Normalize with modern Firefox focus styles.
+ *
+ * This is actually an improvement over the new defaults in Firefox in our testing,
+ * as it triggers the better focus styles even for links, which still use a dotted
+ * outline in Firefox by default.
+ */
+ 
+:-moz-focusring {
+	outline: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/**
+ * Reset links to optimize for opt-in styling instead of
+ * opt-out.
+ */
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/**
+ * Reset form element properties that are easy to forget to
+ * style explicitly so you don't inadvertently introduce
+ * styles that deviate from your design system. These styles
+ * supplement a partial reset that is already applied by
+ * normalize.css.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+}
+
+/**
+ * Use the configured 'mono' font family for elements that
+ * are expected to be rendered with a monospace font, falling
+ * back to the system monospace stack if there is no configured
+ * 'mono' font family.
+ */
+
+pre,
+code,
+kbd,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/**
+ * 1. Make replaced elements `display: block` by default as that's
+ *    the behavior you want almost all of the time. Inspired by
+ *    CSS Remedy, with `svg` added as well.
+ *
+ *    https://github.com/mozdevs/cssremedy/issues/14
+ * 
+ * 2. Add `vertical-align: middle` to align replaced elements more
+ *    sensibly by default when overriding `display` by adding a
+ *    utility like `inline`.
+ *
+ *    This can trigger a poorly considered linting error in some
+ *    tools but is included by design.
+ * 
+ *    https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210
+ */
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/**
+ * Constrain images and videos to the parent width and preserve
+ * their intrinsic aspect ratio.
+ *
+ * https://github.com/mozdevs/cssremedy/issues/14
+ */
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/**
+ * Ensure the default browser behavior of the `hidden` attribute.
+ */
+
+[hidden] {
+  display: none;
+}*, ::before, ::after{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));--tw-border-opacity:1;border-color:rgba(229, 231, 235, var(--tw-border-opacity));--tw-blur:var(--tw-empty,/*!*/ /*!*/);--tw-brightness:var(--tw-empty,/*!*/ /*!*/);--tw-contrast:var(--tw-empty,/*!*/ /*!*/);--tw-grayscale:var(--tw-empty,/*!*/ /*!*/);--tw-hue-rotate:var(--tw-empty,/*!*/ /*!*/);--tw-invert:var(--tw-empty,/*!*/ /*!*/);--tw-saturate:var(--tw-empty,/*!*/ /*!*/);--tw-sepia:var(--tw-empty,/*!*/ /*!*/);--tw-drop-shadow:var(--tw-empty,/*!*/ /*!*/);--tw-filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);--tw-backdrop-blur:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-brightness:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-contrast:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-grayscale:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-hue-rotate:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-invert:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-opacity:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-saturate:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-sepia:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);}.visible{visibility:visible;}.static{position:static;}.fixed{position:fixed;}.absolute{position:absolute;}.relative{position:relative;}.top-0{top:0px;}.bottom-5{bottom:1.25rem;}.right-5{right:1.25rem;}.left-0{left:0px;}.right-0{right:0px;}.right-4{right:1rem;}.top-4{top:1rem;}.top-60{top:15rem;}.-left-4{left:-1rem;}.bottom-40{bottom:10rem;}.right-10{right:2.5rem;}.top-16{top:4rem;}.bottom-0{bottom:0px;}.top-full{top:100%;}.left-8{left:2rem;}.right-8{right:2rem;}.top-24{top:6rem;}.z-20{z-index:20;}.z-50{z-index:50;}.z-10{z-index:10;}.z-0{z-index:0;}.z-40{z-index:40;}.z-30{z-index:30;}.order-1{order:1;}.order-3{order:3;}.order-2{order:2;}.m-auto{margin:auto;}.my-2{margin-top:0.5rem;margin-bottom:0.5rem;}.mx-auto{margin-left:auto;margin-right:auto;}.-mx-2{margin-left:-0.5rem;margin-right:-0.5rem;}.my-10{margin-top:2.5rem;margin-bottom:2.5rem;}.mx-8{margin-left:2rem;margin-right:2rem;}.my-1\.5{margin-top:0.375rem;margin-bottom:0.375rem;}.my-1{margin-top:0.25rem;margin-bottom:0.25rem;}.-mx-4{margin-left:-1rem;margin-right:-1rem;}.my-3{margin-top:0.75rem;margin-bottom:0.75rem;}.-mx-3{margin-left:-0.75rem;margin-right:-0.75rem;}.my-6{margin-top:1.5rem;margin-bottom:1.5rem;}.ml-2{margin-left:0.5rem;}.mr-4{margin-right:1rem;}.mb-6{margin-bottom:1.5rem;}.mt-2{margin-top:0.5rem;}.-mt-px{margin-top:-1px;}.mb-3{margin-bottom:0.75rem;}.mb-2{margin-bottom:0.5rem;}.mr-1{margin-right:0.25rem;}.mb-20{margin-bottom:5rem;}.mb-8{margin-bottom:2rem;}.mb-4{margin-bottom:1rem;}.mb-1{margin-bottom:0.25rem;}.mr-2{margin-right:0.5rem;}.mb-10{margin-bottom:2.5rem;}.-ml-1{margin-left:-0.25rem;}.ml-2\.5{margin-left:0.625rem;}.mb-11{margin-bottom:2.75rem;}.mb-12{margin-bottom:3rem;}.mb-\[46px\]{margin-bottom:46px;}.mt-\[46px\]{margin-top:46px;}.mt-7{margin-top:1.75rem;}.mb-5{margin-bottom:1.25rem;}.mt-3{margin-top:0.75rem;}.mr-8{margin-right:2rem;}.mr-20{margin-right:5rem;}.mr-10{margin-right:2.5rem;}.mt-10{margin-top:2.5rem;}.mr-28{margin-right:7rem;}.mt-8{margin-top:2rem;}.mb-16{margin-bottom:4rem;}.mr-6{margin-right:1.5rem;}.mt-14{margin-top:3.5rem;}.mt-6{margin-top:1.5rem;}.block{display:block;}.inline-block{display:inline-block;}.inline{display:inline;}.flex{display:flex;}.inline-flex{display:inline-flex;}.table{display:table;}.grid{display:grid;}.hidden{display:none;}.h-full{height:100%;}.h-8{height:2rem;}.h-32px{height:32px;}.h-16{height:4rem;}.h-4{height:1rem;}.h-20{height:5rem;}.h-\[70px\]{height:70px;}.h-\[134px\]{height:134px;}.h-10{height:2.5rem;}.h-screen{height:100vh;}.min-h-screen{min-height:100vh;}.w-full{width:100%;}.w-\[calc\(100\%-40px\)\]{width:calc(100% - 40px);}.w-8{width:2rem;}.w-32px{width:32px;}.w-32{width:8rem;}.w-1\/3{width:33.333333%;}.w-16{width:4rem;}.w-1\/2{width:50%;}.w-4{width:1rem;}.w-3{width:0.75rem;}.w-11\/12{width:91.666667%;}.w-20{width:5rem;}.w-\[40px\]{width:40px;}.w-1\/4{width:25%;}.w-3\/4{width:75%;}.w-\[134px\]{width:134px;}.w-screen{width:100vw;}.w-2\/3{width:66.666667%;}.w-7\/12{width:58.333333%;}.w-5\/12{width:41.666667%;}.min-w-720px{min-width:720px;}.max-w-xl{max-width:36rem;}.max-w-200px{max-width:200px;}.max-w-240px{max-width:240px;}.max-w-full{max-width:100%;}.max-w-1040px{max-width:1040px;}.max-w-1180px{max-width:1180px;}.max-w-2xl{max-width:42rem;}.max-w-md{max-width:28rem;}.max-w-3xl{max-width:48rem;}.flex-shrink-0{flex-shrink:0;}.flex-grow{flex-grow:1;}.border-collapse{border-collapse:collapse;}.rotate-180{--tw-rotate:180deg;transform:var(--tw-transform);}.rotate-0{--tw-rotate:0deg;transform:var(--tw-transform);}.transform{transform:var(--tw-transform);}.cursor-pointer{cursor:pointer;}.list-disc{list-style-type:disc;}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr));}.flex-row{flex-direction:row;}.flex-col{flex-direction:column;}.flex-wrap{flex-wrap:wrap;}.items-start{align-items:flex-start;}.items-center{align-items:center;}.justify-end{justify-content:flex-end;}.justify-center{justify-content:center;}.justify-between{justify-content:space-between;}.gap-6{gap:1.5rem;}.self-end{align-self:flex-end;}.self-center{align-self:center;}.overflow-auto{overflow:auto;}.overflow-hidden{overflow:hidden;}.rounded-full{border-radius:9999px;}.rounded-lg{border-radius:0.5rem;}.rounded-2xl{border-radius:1rem;}.rounded-xl{border-radius:0.75rem;}.rounded-3xl{border-radius:1.5rem;}.border{border-width:1px;}.border-2{border-width:2px;}.border-t{border-top-width:1px;}.border-b{border-bottom-width:1px;}.border-grey_fb{--tw-border-opacity:1;border-color:rgba(151, 154, 172, var(--tw-border-opacity));}.border-grey_250{--tw-border-opacity:1;border-color:rgba(92, 92, 92, var(--tw-border-opacity));}.border-grey_200{--tw-border-opacity:1;border-color:rgba(202, 202, 202, var(--tw-border-opacity));}.border-white{--tw-border-opacity:1;border-color:rgba(255, 255, 255, var(--tw-border-opacity));}.border-grey_700{--tw-border-opacity:1;border-color:rgba(88, 85, 93, var(--tw-border-opacity));}.border-pink-500{--tw-border-opacity:1;border-color:rgba(236, 72, 153, var(--tw-border-opacity));}.border-dark_600{--tw-border-opacity:1;border-color:rgba(84, 84, 84, var(--tw-border-opacity));}.border-trp_white_30{border-color:rgba(255, 255, 255, 0.30);}.border-grey_fw{--tw-border-opacity:1;border-color:rgba(97, 103, 116, var(--tw-border-opacity));}.border-b-grey_border{--tw-border-opacity:1;border-bottom-color:rgba(204, 204, 204, var(--tw-border-opacity));}.bg-lemon_light{--tw-bg-opacity:1;background-color:rgba(255, 217, 166, var(--tw-bg-opacity));}.bg-violet{--tw-bg-opacity:1;background-color:rgba(29, 25, 38, var(--tw-bg-opacity));}.bg-white{--tw-bg-opacity:1;background-color:rgba(255, 255, 255, var(--tw-bg-opacity));}.bg-grey_fb{--tw-bg-opacity:1;background-color:rgba(151, 154, 172, var(--tw-bg-opacity));}.bg-transparent{background-color:transparent;}.bg-black_bg{--tw-bg-opacity:1;background-color:rgba(6, 1, 13, var(--tw-bg-opacity));}.bg-white_bg{--tw-bg-opacity:1;background-color:rgba(248, 248, 248, var(--tw-bg-opacity));}.bg-trp_grey_10{background-color:rgba(255, 242, 242, 0.1);}.bg-grey_900{--tw-bg-opacity:1;background-color:rgba(43, 39, 49, var(--tw-bg-opacity));}.bg-grey_500{--tw-bg-opacity:1;background-color:rgba(43, 39, 49, var(--tw-bg-opacity));}.bg-trp_white_15{background-color:rgba(255, 255, 255, 0.15);}.bg-trp_black_30{background-color:rgba(0, 0, 0, 0.30);}.bg-blue_bg{--tw-bg-opacity:1;background-color:rgba(233, 241, 249, var(--tw-bg-opacity));}.bg-green{--tw-bg-opacity:1;background-color:rgba(20, 241, 149, var(--tw-bg-opacity));}.bg-dark_300{--tw-bg-opacity:1;background-color:rgba(54, 51, 60, var(--tw-bg-opacity));}.bg-dark_200{--tw-bg-opacity:1;background-color:rgba(34, 31, 38, var(--tw-bg-opacity));}.bg-pinky{--tw-bg-opacity:1;background-color:rgba(211, 60, 161, var(--tw-bg-opacity));}.bg-opacity-75{--tw-bg-opacity:0.75;}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops));}.bg-mobile-infograph{background-image:url('images/index/infograph_mobile.png');}.from-g_purple{--tw-gradient-from:#D93C92;--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to, rgba(217, 60, 146, 0));}.from-g_light-purple{--tw-gradient-from:#FB5EB4;--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to, rgba(251, 94, 180, 0));}.to-g_purple_2{--tw-gradient-to:#C121DE;}.bg-contain{background-size:contain;}.bg-center{background-position:center;}.bg-no-repeat{background-repeat:no-repeat;}.fill-green{fill:#14F195;}.fill-black{fill:#000;}.fill-white{fill:#fff;}.fill-white_fb{fill:#e5e5e5;}.p-5{padding:1.25rem;}.p-4{padding:1rem;}.p-6{padding:1.5rem;}.p-3{padding:0.75rem;}.p-1{padding:0.25rem;}.px-2{padding-left:0.5rem;padding-right:0.5rem;}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem;}.py-0{padding-top:0px;padding-bottom:0px;}.px-8{padding-left:2rem;padding-right:2rem;}.py-3{padding-top:0.75rem;padding-bottom:0.75rem;}.px-4{padding-left:1rem;padding-right:1rem;}.px-6{padding-left:1.5rem;padding-right:1.5rem;}.py-10{padding-top:2.5rem;padding-bottom:2.5rem;}.py-6{padding-top:1.5rem;padding-bottom:1.5rem;}.py-8{padding-top:2rem;padding-bottom:2rem;}.py-2{padding-top:0.5rem;padding-bottom:0.5rem;}.py-1{padding-top:0.25rem;padding-bottom:0.25rem;}.py-5{padding-top:1.25rem;padding-bottom:1.25rem;}.py-\[22px\]{padding-top:22px;padding-bottom:22px;}.px-7{padding-left:1.75rem;padding-right:1.75rem;}.px-\[15\%\]{padding-left:15%;padding-right:15%;}.py-4{padding-top:1rem;padding-bottom:1rem;}.py-12{padding-top:3rem;padding-bottom:3rem;}.px-10{padding-left:2.5rem;padding-right:2.5rem;}.px-3{padding-left:0.75rem;padding-right:0.75rem;}.px-5{padding-left:1.25rem;padding-right:1.25rem;}.pb-2{padding-bottom:0.5rem;}.pt-4{padding-top:1rem;}.pl-4{padding-left:1rem;}.pt-10{padding-top:2.5rem;}.pb-10{padding-bottom:2.5rem;}.pr-8{padding-right:2rem;}.pl-8{padding-left:2rem;}.pb-6{padding-bottom:1.5rem;}.pt-8{padding-top:2rem;}.pb-8{padding-bottom:2rem;}.pb-5{padding-bottom:1.25rem;}.pb-20{padding-bottom:5rem;}.pt-6{padding-top:1.5rem;}.pb-11{padding-bottom:2.75rem;}.pt-2{padding-top:0.5rem;}.pt-72{padding-top:18rem;}.pb-4{padding-bottom:1rem;}.pb-24{padding-bottom:6rem;}.pl-6{padding-left:1.5rem;}.text-left{text-align:left;}.text-center{text-align:center;}.text-xs{font-size:0.75rem;line-height:1rem;}.text-lg{font-size:1.125rem;line-height:1.75rem;}.text-xxs{font-size:12px;}.text-sm{font-size:0.875rem;line-height:1.25rem;}.text-3xl{font-size:1.875rem;line-height:2.25rem;}.text-base{font-size:1rem;line-height:1.5rem;}.text-2xl{font-size:1.5rem;line-height:2rem;}.text-xl{font-size:1.25rem;line-height:1.75rem;}.text-4xl{font-size:2rem;}.text-3xs{font-size:8px;}.text-5xl{font-size:2.75rem;}.font-normal{font-weight:400;}.font-bold{font-weight:700;}.font-medium{font-weight:500;}.font-light{font-weight:300;}.uppercase{text-transform:uppercase;}.capitalize{text-transform:capitalize;}.leading-light{line-height:15px;}.leading-tight{line-height:1.25;}.leading-none{line-height:1;}.leading-normal{line-height:1.5;}.leading-supertight{line-height:1.1;}.leading-snug{line-height:1.375;}.leading-20{line-height:20px;}.leading-8{line-height:2rem;}.leading-extralight{line-height:13px;}.leading-28{line-height:28px;}.tracking-tight{letter-spacing:-0.025em;}.tracking-tighter{letter-spacing:-0.05em;}.tracking-\[-2px\]{letter-spacing:-2px;}.text-white{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity));}.text-grey_fb{--tw-text-opacity:1;color:rgba(151, 154, 172, var(--tw-text-opacity));}.text-green{--tw-text-opacity:1;color:rgba(20, 241, 149, var(--tw-text-opacity));}.text-grey_fw{--tw-text-opacity:1;color:rgba(97, 103, 116, var(--tw-text-opacity));}.text-black{--tw-text-opacity:1;color:rgba(0, 0, 0, var(--tw-text-opacity));}.text-red{--tw-text-opacity:1;color:rgba(254, 100, 117, var(--tw-text-opacity));}.text-magenta{--tw-text-opacity:1;color:rgba(223, 66, 171, var(--tw-text-opacity));}.text-grey_100{--tw-text-opacity:1;color:rgba(248, 248, 249, var(--tw-text-opacity));}.text-grey_300{--tw-text-opacity:1;color:rgba(167, 167, 167, var(--tw-text-opacity));}.text-white_bg{--tw-text-opacity:1;color:rgba(248, 248, 248, var(--tw-text-opacity));}.text-grey_faq{--tw-text-opacity:1;color:rgba(72, 72, 83, var(--tw-text-opacity));}.text-grey_400{--tw-text-opacity:1;color:rgba(114, 114, 114, var(--tw-text-opacity));}.text-white_fb{--tw-text-opacity:1;color:rgba(229, 229, 229, var(--tw-text-opacity));}.underline{text-decoration:underline;}.opacity-10{opacity:0.1;}.opacity-60{opacity:0.6;}.opacity-0{opacity:0;}.blur{--tw-blur:blur(8px);filter:var(--tw-filter);}.drop-shadow-md{--tw-drop-shadow:drop-shadow(0 4px 3px rgba(0, 0, 0, 0.07)) drop-shadow(0 2px 2px rgba(0, 0, 0, 0.06));filter:var(--tw-filter);}.filter{filter:var(--tw-filter);}.backdrop-blur-xl{--tw-backdrop-blur:blur(24px);-webkit-backdrop-filter:var(--tw-backdrop-filter);backdrop-filter:var(--tw-backdrop-filter);}.backdrop-filter{-webkit-backdrop-filter:var(--tw-backdrop-filter);backdrop-filter:var(--tw-backdrop-filter);}.transition{transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms;}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms;}.duration-200{transition-duration:200ms;}.last\:ml-5:last-child{margin-left:1.25rem;}.hover\:bg-dark_200:hover{--tw-bg-opacity:1;background-color:rgba(34, 31, 38, var(--tw-bg-opacity));}.hover\:text-light-green:hover{--tw-text-opacity:1;color:rgba(134, 255, 205, var(--tw-text-opacity));}.hover\:text-grey_fw:hover{--tw-text-opacity:1;color:rgba(97, 103, 116, var(--tw-text-opacity));}.hover\:text-purple_link:hover{--tw-text-opacity:1;color:rgba(232, 81, 245, var(--tw-text-opacity));}.hover\:text-magenta:hover{--tw-text-opacity:1;color:rgba(223, 66, 171, var(--tw-text-opacity));}@media (min-width: 744px){.sm\:relative{position:relative;}.sm\:left-40{left:10rem;}.sm\:bottom-auto{bottom:auto;}.sm\:top-60{top:15rem;}.sm\:top-6{top:1.5rem;}.sm\:left-\[50\%\]{left:50%;}.sm\:right-8{right:2rem;}.sm\:top-\[250px\]{top:250px;}.sm\:z-10{z-index:10;}.sm\:z-0{z-index:0;}.sm\:order-1{order:1;}.sm\:order-3{order:3;}.sm\:order-2{order:2;}.sm\:-mx-3{margin-left:-0.75rem;margin-right:-0.75rem;}.sm\:mx-auto{margin-left:auto;margin-right:auto;}.sm\:my-0{margin-top:0px;margin-bottom:0px;}.sm\:mb-0{margin-bottom:0px;}.sm\:mr-4{margin-right:1rem;}.sm\:mb-6{margin-bottom:1.5rem;}.sm\:mb-8{margin-bottom:2rem;}.sm\:mr-8{margin-right:2rem;}.sm\:mt-0{margin-top:0px;}.sm\:mt-14{margin-top:3.5rem;}.sm\:mr-3{margin-right:0.75rem;}.sm\:ml-3{margin-left:0.75rem;}.sm\:ml-4{margin-left:1rem;}.sm\:mr-10{margin-right:2.5rem;}.sm\:mb-4{margin-bottom:1rem;}.sm\:mb-20{margin-bottom:5rem;}.sm\:block{display:block;}.sm\:inline{display:inline;}.sm\:flex{display:flex;}.sm\:inline-flex{display:inline-flex;}.sm\:hidden{display:none;}.sm\:h-36{height:9rem;}.sm\:h-12{height:3rem;}.sm\:w-72{width:18rem;}.sm\:w-1\/2{width:50%;}.sm\:w-auto{width:auto;}.sm\:w-1\/4{width:25%;}.sm\:w-10\/12{width:83.333333%;}.sm\:w-1\/3{width:33.333333%;}.sm\:w-5\/12{width:41.666667%;}.sm\:w-7\/12{width:58.333333%;}.sm\:w-8\/12{width:66.666667%;}.sm\:w-\[75px\]{width:75px;}.sm\:w-full{width:100%;}.sm\:w-4\/6{width:66.666667%;}.sm\:w-40{width:10rem;}.sm\:w-2\/6{width:33.333333%;}.sm\:w-3\/4{width:75%;}.sm\:max-w-lg{max-width:32rem;}.sm\:max-w-sm{max-width:24rem;}.sm\:max-w-md{max-width:28rem;}.sm\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr));}.sm\:flex-row{flex-direction:row;}.sm\:flex-col{flex-direction:column;}.sm\:flex-wrap{flex-wrap:wrap;}.sm\:items-start{align-items:flex-start;}.sm\:items-end{align-items:flex-end;}.sm\:items-center{align-items:center;}.sm\:justify-start{justify-content:flex-start;}.sm\:justify-center{justify-content:center;}.sm\:justify-between{justify-content:space-between;}.sm\:self-start{align-self:flex-start;}.sm\:self-end{align-self:flex-end;}.sm\:bg-trp_black_30{background-color:rgba(0, 0, 0, 0.30);}.sm\:bg-none{background-image:none;}.sm\:p-6{padding:1.5rem;}.sm\:py-5{padding-top:1.25rem;padding-bottom:1.25rem;}.sm\:px-3{padding-left:0.75rem;padding-right:0.75rem;}.sm\:px-8{padding-left:2rem;padding-right:2rem;}.sm\:px-10{padding-left:2.5rem;padding-right:2.5rem;}.sm\:py-16{padding-top:4rem;padding-bottom:4rem;}.sm\:py-8{padding-top:2rem;padding-bottom:2rem;}.sm\:px-\[52px\]{padding-left:52px;padding-right:52px;}.sm\:py-1{padding-top:0.25rem;padding-bottom:0.25rem;}.sm\:\!px-16{padding-left:4rem !important;padding-right:4rem !important;}.sm\:px-2{padding-left:0.5rem;padding-right:0.5rem;}.sm\:py-7{padding-top:1.75rem;padding-bottom:1.75rem;}.sm\:py-12{padding-top:3rem;padding-bottom:3rem;}.sm\:pt-20{padding-top:5rem;}.sm\:pb-11{padding-bottom:2.75rem;}.sm\:pr-16{padding-right:4rem;}.sm\:pl-6{padding-left:1.5rem;}.sm\:pt-16{padding-top:4rem;}.sm\:pb-12{padding-bottom:3rem;}.sm\:pl-4{padding-left:1rem;}.sm\:pt-24{padding-top:6rem;}.sm\:pr-4{padding-right:1rem;}.sm\:pt-6{padding-top:1.5rem;}.sm\:pb-24{padding-bottom:6rem;}.sm\:pb-4{padding-bottom:1rem;}.sm\:pt-4{padding-top:1rem;}.sm\:pt-2{padding-top:0.5rem;}.sm\:pr-0{padding-right:0px;}.sm\:pr-10{padding-right:2.5rem;}.sm\:pb-10{padding-bottom:2.5rem;}.sm\:pb-16{padding-bottom:4rem;}.sm\:pb-0{padding-bottom:0px;}.sm\:pt-0{padding-top:0px;}.sm\:pt-40{padding-top:10rem;}.sm\:pb-8{padding-bottom:2rem;}.sm\:pt-32{padding-top:8rem;}.sm\:pb-6{padding-bottom:1.5rem;}.sm\:text-left{text-align:left;}.sm\:text-center{text-align:center;}.sm\:text-lg{font-size:1.125rem;line-height:1.75rem;}.sm\:text-4xl{font-size:2rem;}.sm\:text-sm{font-size:0.875rem;line-height:1.25rem;}.sm\:text-xl{font-size:1.25rem;line-height:1.75rem;}.sm\:text-base{font-size:1rem;line-height:1.5rem;}.sm\:text-2xl{font-size:1.5rem;line-height:2rem;}.sm\:text-5xl{font-size:2.75rem;}.sm\:text-6xl{font-size:3.875em;}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem;}.sm\:font-medium{font-weight:500;}.sm\:leading-tight{line-height:1.25;}.sm\:leading-snug{line-height:1.375;}.sm\:leading-24{line-height:24px;}.sm\:leading-10{line-height:2.5rem;}.sm\:leading-30{line-height:30px;}.sm\:text-violet{--tw-text-opacity:1;color:rgba(29, 25, 38, var(--tw-text-opacity));}.sm\:hover\:-ml-5:hover{margin-left:-1.25rem;}.sm\:hover\:w-\[calc\(100\%\+40px\)\]:hover{width:calc(100% + 40px);}.sm\:hover\:rounded-xl:hover{border-radius:0.75rem;}.sm\:hover\:border-b-0:hover{border-bottom-width:0px;}.sm\:hover\:bg-trp_black_07:hover{background-color:rgba(0, 0, 0, 0.07);}.sm\:hover\:px-5:hover{padding-left:1.25rem;padding-right:1.25rem;}}@media (min-width: 1280px){.md\:right-10{right:2.5rem;}.md\:top-10{top:2.5rem;}.md\:left-52{left:13rem;}.md\:top-24{top:6rem;}.md\:right-56{right:14rem;}.md\:bottom-4{bottom:1rem;}.md\:top-auto{top:auto;}.md\:right-\[calc\(\(100\%-1040px\)\/2\)\]{right:calc((100% - 1040px) / 2);}.md\:order-1{order:1;}.md\:-mx-8{margin-left:-2rem;margin-right:-2rem;}.md\:mx-auto{margin-left:auto;margin-right:auto;}.md\:-mx-4{margin-left:-1rem;margin-right:-1rem;}.md\:mx-0{margin-left:0px;margin-right:0px;}.md\:-mx-3{margin-left:-0.75rem;margin-right:-0.75rem;}.md\:mb-0{margin-bottom:0px;}.md\:mb-2{margin-bottom:0.5rem;}.md\:mb-11{margin-bottom:2.75rem;}.md\:mb-10{margin-bottom:2.5rem;}.md\:mb-16{margin-bottom:4rem;}.md\:mb-4{margin-bottom:1rem;}.md\:mb-6{margin-bottom:1.5rem;}.md\:mb-12{margin-bottom:3rem;}.md\:mr-0{margin-right:0px;}.md\:ml-4{margin-left:1rem;}.md\:ml-10{margin-left:2.5rem;}.md\:mb-8{margin-bottom:2rem;}.md\:mb-20{margin-bottom:5rem;}.md\:mr-4{margin-right:1rem;}.md\:mt-14{margin-top:3.5rem;}.md\:inline{display:inline;}.md\:flex{display:flex;}.md\:hidden{display:none;}.md\:h-56{height:14rem;}.md\:h-64px{height:64px;}.md\:h-20{height:5rem;}.md\:w-5\/12{width:41.666667%;}.md\:w-7\/12{width:58.333333%;}.md\:w-64px{width:64px;}.md\:w-20{width:5rem;}.md\:w-full{width:100%;}.md\:w-3\/5{width:60%;}.md\:w-1\/2{width:50%;}.md\:w-5\/6{width:83.333333%;}.md\:w-1\/3{width:33.333333%;}.md\:w-2\/3{width:66.666667%;}.md\:w-1\/5{width:20%;}.md\:max-w-biggest{max-width:1232px;}.md\:max-w-280px{max-width:280px;}.md\:max-w-3xl{max-width:48rem;}.md\:max-w-240px{max-width:240px;}.md\:max-w-xl{max-width:36rem;}.md\:max-w-lg{max-width:32rem;}.md\:max-w-1040px{max-width:1040px;}.md\:max-w-4xl{max-width:56rem;}.md\:max-w-none{max-width:none;}.md\:max-w-720px{max-width:720px;}.md\:max-w-1180px{max-width:1180px;}.md\:flex-grow{flex-grow:1;}.md\:flex-row{flex-direction:row;}.md\:flex-col{flex-direction:column;}.md\:items-start{align-items:flex-start;}.md\:items-center{align-items:center;}.md\:justify-start{justify-content:flex-start;}.md\:justify-end{justify-content:flex-end;}.md\:justify-between{justify-content:space-between;}.md\:self-center{align-self:center;}.md\:overflow-hidden{overflow:hidden;}.md\:rounded-xl{border-radius:0.75rem;}.md\:bg-black_bg{--tw-bg-opacity:1;background-color:rgba(6, 1, 13, var(--tw-bg-opacity));}.md\:p-6{padding:1.5rem;}.md\:p-8{padding:2rem;}.md\:px-24{padding-left:6rem;padding-right:6rem;}.md\:px-20{padding-left:5rem;padding-right:5rem;}.md\:py-20{padding-top:5rem;padding-bottom:5rem;}.md\:px-4{padding-left:1rem;padding-right:1rem;}.md\:px-16{padding-left:4rem;padding-right:4rem;}.md\:px-10{padding-left:2.5rem;padding-right:2.5rem;}.md\:\!px-8{padding-left:2rem !important;padding-right:2rem !important;}.md\:py-0{padding-top:0px;padding-bottom:0px;}.md\:px-0{padding-left:0px;padding-right:0px;}.md\:px-12{padding-left:3rem;padding-right:3rem;}.md\:py-10{padding-top:2.5rem;padding-bottom:2.5rem;}.md\:py-16{padding-top:4rem;padding-bottom:4rem;}.md\:py-14{padding-top:3.5rem;padding-bottom:3.5rem;}.md\:pb-10{padding-bottom:2.5rem;}.md\:pr-16{padding-right:4rem;}.md\:pt-20{padding-top:5rem;}.md\:pr-0{padding-right:0px;}.md\:pb-20{padding-bottom:5rem;}.md\:pt-32{padding-top:8rem;}.md\:pr-8{padding-right:2rem;}.md\:pl-12{padding-left:3rem;}.md\:pt-8{padding-top:2rem;}.md\:pt-5{padding-top:1.25rem;}.md\:pt-0{padding-top:0px;}.md\:pl-8{padding-left:2rem;}.md\:pt-16{padding-top:4rem;}.md\:pb-0{padding-bottom:0px;}.md\:pt-52{padding-top:13rem;}.md\:pt-10{padding-top:2.5rem;}.md\:pr-3{padding-right:0.75rem;}.md\:pt-24{padding-top:6rem;}.md\:pb-8{padding-bottom:2rem;}.md\:pl-3{padding-left:0.75rem;}.md\:text-center{text-align:center;}.md\:text-4xl{font-size:2rem;}.md\:text-2xl{font-size:1.5rem;line-height:2rem;}.md\:text-5xl{font-size:2.75rem;}.md\:text-lg{font-size:1.125rem;line-height:1.75rem;}.md\:text-base{font-size:1rem;line-height:1.5rem;}.md\:text-6xl{font-size:3.875em;}.md\:text-xl{font-size:1.25rem;line-height:1.75rem;}.md\:leading-none{line-height:1;}.md\:leading-relaxed{line-height:1.625;}.md\:leading-28{line-height:28px;}.md\:leading-tight{line-height:1.25;}.md\:leading-supertight{line-height:1.1;}.md\:tracking-normal{letter-spacing:0em;}}
+.grid-plate{width:100%;padding-left:2rem;padding-right:2rem}@media (min-width: 1280px){.grid-plate{margin-left:auto;margin-right:auto}.grid-plate{max-width:1040px}.grid-plate{padding-left:0px;padding-right:0px}}@media(min-width:1279px){.md\:grid-plate{margin-left:auto;margin-right:auto}.md\:grid-plate{width:100%}.md\:grid-plate{max-width:1040px}}.grid-col{padding-left:0.5rem;padding-right:0.5rem}@media (min-width: 744px){.grid-col{padding-left:0.75rem;padding-right:0.75rem}}@media (max-width: 743px){.sm-fix\:grid-col{padding-left:0.5rem;padding-right:0.5rem}}@media (max-width: 1279px){.sm-fix\:grid-col{padding-left:0.75rem;padding-right:0.75rem}}.content h1, .content h2, .content h3, .content h4, .content h5, .content h6{font-weight:700}.content h1{font-size:3.875em}.content h2{font-size:2.75rem}.content h3{font-size:2rem}.content h4{font-size:1.875rem;line-height:2.25rem}.content h5{font-size:1.5rem;line-height:2rem}.content h6{font-size:1.25rem;line-height:1.75rem}.content a{color:#c121de}
+code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::-moz-selection,code[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-]::-moz-selection, code[class*=language-] ::-moz-selection, pre[class*=language-]::-moz-selection, pre[class*=language-] ::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}
+.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}
+.grid-plate{width:100%;padding-left:2rem;padding-right:2rem}@media (min-width: 1280px){.grid-plate{margin-left:auto;margin-right:auto}.grid-plate{max-width:1040px}.grid-plate{padding-left:0px;padding-right:0px}}@media(min-width:1279px){.md\:grid-plate{margin-left:auto;margin-right:auto}.md\:grid-plate{width:100%}.md\:grid-plate{max-width:1040px}}.grid-col{padding-left:0.5rem;padding-right:0.5rem}@media (min-width: 744px){.grid-col{padding-left:0.75rem;padding-right:0.75rem}}@media (max-width: 743px){.sm-fix\:grid-col{padding-left:0.5rem;padding-right:0.5rem}}@media (max-width: 1279px){.sm-fix\:grid-col{padding-left:0.75rem;padding-right:0.75rem}}.content h1, .content h2, .content h3, .content h4, .content h5, .content h6{font-weight:700}.content h1{font-size:3.875em}.content h2{font-size:2.75rem}.content h3{font-size:2rem}.content h4{font-size:1.875rem;line-height:2.25rem}.content h5{font-size:1.5rem;line-height:2rem}.content h6{font-size:1.25rem;line-height:1.75rem}.content a{color:#c121de}.markdown-content h2,.markdown-content h3{font-weight:700;padding-bottom:15px}.markdown-content p{padding:0 0 15px}.markdown-content ul{padding:0 0 15px 15px}.markdown-content ul li{list-style:inside}.markdown-content hr{padding-bottom:25px}.markdown-content table{border:.5px solid #979aac;border-collapse:collapse;margin-bottom:15px}.markdown-content table td,.markdown-content table th{border:1px solid #979aac;padding:15px;vertical-align:top}.markdown-content table th{text-align:center;min-width:130px}.markdown-content a{color:#df42ab}.markdown-content a:hover{color:#c121de;cursor:pointer}
+.mobile-menu{position:fixed;top:0px;left:0px;right:0px;bottom:0px;height:100vh;overflow:auto;--tw-bg-opacity:1;background-color:rgba(6, 1, 13, var(--tw-bg-opacity));padding-bottom:5rem}.mobile-menu--hidden{pointer-events:none;opacity:0}.mobile-menu__item{padding-top:1rem;padding-bottom:1rem;font-size:1.5rem;line-height:2rem;font-weight:500}
+.link{display:inline-flex;cursor:pointer;justify-content:center;--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.link:hover{--tw-text-opacity:1;color:rgba(232, 81, 245, var(--tw-text-opacity))}.link--magenta{--tw-text-opacity:1;color:rgba(223, 66, 171, var(--tw-text-opacity))}.link--black{--tw-text-opacity:1;color:rgba(0, 0, 0, var(--tw-text-opacity))}.link--marked{--tw-text-opacity:1;color:rgba(20, 241, 149, var(--tw-text-opacity))}.link--marked:hover{--tw-text-opacity:1;color:rgba(134, 255, 205, var(--tw-text-opacity))}.link--active{--tw-text-opacity:1;color:rgba(232, 81, 245, var(--tw-text-opacity))}.link--white-arrow svg path{fill:#fff}.link--inline, .link--inline svg{display:inline}.link:hover .link__title{--tw-text-opacity:1;color:rgba(232, 81, 245, var(--tw-text-opacity))}.link--black.link--marked{--tw-text-opacity:1;color:rgba(223, 66, 171, var(--tw-text-opacity))}.link--black .link__title{--tw-text-opacity:1;color:rgba(0, 0, 0, var(--tw-text-opacity))}.link--black .link__summary{--tw-text-opacity:1;color:rgba(151, 154, 172, var(--tw-text-opacity))}.link--black .link__icon, .link--black svg path{fill:#000}.link--black:hover .link__icon, .link--black:hover svg path{fill:#C121DE}.link__title{font-weight:700;--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.link__summary{font-size:0.875rem;line-height:1.25rem;--tw-text-opacity:1;color:rgba(97, 103, 116, var(--tw-text-opacity))}.link__icon{margin-top:-2px;align-self:center}.link__icon:hover{fill:#C121DE}
+.spoiler[data-v-8ff44950]{display:flex;width:100%;flex-direction:column;margin-top:-1px}.spoiler--white .spoiler__content[data-v-8ff44950], .spoiler--white .spoiler__title[data-v-8ff44950]{--tw-text-opacity:1;color:rgba(0, 0, 0, var(--tw-text-opacity))}.spoiler--white .spoiler__row[data-v-8ff44950]{--tw-border-opacity:1;border-color:rgba(97, 103, 116, var(--tw-border-opacity))}.spoiler--expanded .spoiler__title[data-v-8ff44950]{--tw-text-opacity:1;color:rgba(232, 81, 245, var(--tw-text-opacity))}.spoiler--expanded .spoiler__content[data-v-8ff44950]{display:block}.spoiler--expanded .spoiler__chevron[data-v-8ff44950]{transform:rotateX(180deg)}.spoiler__title[data-v-8ff44950]{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.spoiler__row[data-v-8ff44950]{display:flex;justify-content:space-between;border-top-width:1px;border-bottom-width:1px;--tw-border-opacity:1;border-color:rgba(151, 154, 172, var(--tw-border-opacity));padding-top:1rem;padding-bottom:1rem}.spoiler__content[data-v-8ff44950]{display:none;--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.spoiler__chevron[data-v-8ff44950]{transition:.2s}
+.header{transition:.2s ease-in-out}@media(max-width:1279px){.header{-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}}.header--hidden{transform:translateY(-80px)}
+.menu-item{display:inline-flex;font-weight:500;margin-left:10px;margin-right:10px;font-size:16px;padding-top:1.75rem;padding-bottom:1.75rem}
+.dropdown[data-v-3a0b46fe]{position:relative;cursor:default}.dropdown--visible .dropdown__icon[data-v-3a0b46fe]{transform:rotateX(180deg);fill:#C121DE}.dropdown--visible .dropdown__link span[data-v-3a0b46fe]{--tw-text-opacity:1;color:rgba(232, 81, 245, var(--tw-text-opacity))}.dropdown--visible .dropdown__list[data-v-3a0b46fe]{opacity:1;pointer-events:auto}.dropdown__link[data-v-3a0b46fe]{display:flex;align-items:center}.dropdown__icon[data-v-3a0b46fe]{fill:#fff}.dropdown__list[data-v-3a0b46fe]{position:absolute;border-radius:0.5rem;--tw-bg-opacity:1;background-color:rgba(255, 255, 255, var(--tw-bg-opacity));padding-top:0.75rem;padding-bottom:0.75rem;padding-left:1rem;padding-right:1rem;--tw-shadow:0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);min-width:320px;opacity:0;transition:.2s ease-in-out;pointer-events:none;top:100%}.dropdown__list--right[data-v-3a0b46fe]{right:0}.dropdown__list--left[data-v-3a0b46fe]{left:0}
+.grid-plate[data-v-5b5405a2]{width:100%;padding-left:2rem;padding-right:2rem}@media (min-width: 1280px){.grid-plate[data-v-5b5405a2]{margin-left:auto;margin-right:auto}.grid-plate[data-v-5b5405a2]{max-width:1040px}.grid-plate[data-v-5b5405a2]{padding-left:0px;padding-right:0px}}@media(min-width:1279px){.md\:grid-plate[data-v-5b5405a2]{margin-left:auto;margin-right:auto}.md\:grid-plate[data-v-5b5405a2]{width:100%}.md\:grid-plate[data-v-5b5405a2]{max-width:1040px}}.grid-col[data-v-5b5405a2]{padding-left:0.5rem;padding-right:0.5rem}@media (min-width: 744px){.grid-col[data-v-5b5405a2]{padding-left:0.75rem;padding-right:0.75rem}}@media (max-width: 743px){.sm-fix\:grid-col[data-v-5b5405a2]{padding-left:0.5rem;padding-right:0.5rem}}@media (max-width: 1279px){.sm-fix\:grid-col[data-v-5b5405a2]{padding-left:0.75rem;padding-right:0.75rem}}.content h1[data-v-5b5405a2], .content h2[data-v-5b5405a2], .content h3[data-v-5b5405a2], .content h4[data-v-5b5405a2], .content h5[data-v-5b5405a2], .content h6[data-v-5b5405a2]{font-weight:700}.content h1[data-v-5b5405a2]{font-size:3.875em}.content h2[data-v-5b5405a2]{font-size:2.75rem}.content h3[data-v-5b5405a2]{font-size:2rem}.content h4[data-v-5b5405a2]{font-size:1.875rem;line-height:2.25rem}.content h5[data-v-5b5405a2]{font-size:1.5rem;line-height:2rem}.content h6[data-v-5b5405a2]{font-size:1.25rem;line-height:1.75rem}.content a[data-v-5b5405a2]{color:#c121de}.button[data-v-5b5405a2]{font-size:14px;padding-top:10px;padding-bottom:10px;position:relative;justify-content:center;border-radius:0.5rem;padding-left:2rem;padding-right:2rem;font-weight:700;text-transform:uppercase}.button--disabled[data-v-5b5405a2]{pointer-events:none}.button--disabled .button__content[data-v-5b5405a2]{opacity:0.25}.button--white .button__content[data-v-5b5405a2]{--tw-text-opacity:1;color:rgba(0, 0, 0, var(--tw-text-opacity))}.button--white[data-v-5b5405a2]:not(.button--gradient):not(.button--bordered){--tw-bg-opacity:1;background-color:rgba(248, 248, 248, var(--tw-bg-opacity))}.button--white[data-v-5b5405a2]:not(.button--gradient):not(.button--bordered):hover{background-color:#d3d3d3}.button[data-v-5b5405a2]:not(.button--gradient):not(.button--bordered):not(.button--white){--tw-bg-opacity:1;background-color:rgba(0, 0, 0, var(--tw-bg-opacity))}.button[data-v-5b5405a2]:not(.button--gradient):not(.button--bordered):not(.button--white):hover{background-color:#434343}.button--primary[data-v-5b5405a2]{padding-top:0.75rem;padding-bottom:0.75rem;letter-spacing:0.05em;min-width:242px}.button--primary.button--gradient[data-v-5b5405a2]:before{content:"";position:absolute;border-radius:0.5rem;background-image:linear-gradient(to right, var(--tw-gradient-stops));--tw-gradient-from:#D93C92;--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to, rgba(217, 60, 146, 0));--tw-gradient-to:#C121DE;width:90%;bottom:-10%;height:100%;z-index:0;filter:blur(8px)}.button--primary.button--gradient[data-v-5b5405a2]:hover:before{transform:translateY(-5%);--tw-gradient-from:#FB5EB4;--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to, rgba(251, 94, 180, 0));--tw-gradient-to:#E455FE}.button--gradient[data-v-5b5405a2]:not(.button--bordered){background-image:linear-gradient(to right, var(--tw-gradient-stops));--tw-gradient-from:#D93C92;--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to, rgba(217, 60, 146, 0));--tw-gradient-to:#C121DE}.button--gradient[data-v-5b5405a2]:not(.button--bordered):hover{--tw-gradient-from:#FB5EB4;--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to, rgba(251, 94, 180, 0));--tw-gradient-to:#E455FE}.button--bordered[data-v-5b5405a2]{border-radius:0.5rem;border-width:1px;--tw-border-opacity:1;border-color:rgba(151, 154, 172, var(--tw-border-opacity));background-color:transparent}.button--bordered.button--gradient[data-v-5b5405a2]{border-radius:0;border:0}.button--bordered.button--gradient[data-v-5b5405a2]:before{content:"";position:absolute;top:0px;left:0px;height:100%;width:100%;background:linear-gradient(90deg,#d93c92,#c121de) border-box;-webkit-mask:linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude;background-color:transparent;border-radius:8px;border:1px solid transparent}.button--bordered.button--gradient[data-v-5b5405a2]:hover:before{background:linear-gradient(90deg,#fb5eb4,#e455fe) border-box}.button--bordered:not(.button--gradient).button--white[data-v-5b5405a2]:hover{--tw-border-opacity:1;border-color:rgba(0, 0, 0, var(--tw-border-opacity))}.button--bordered[data-v-5b5405a2]:not(.button--gradient):not(.button--white):hover{border:1px solid hsla(0,0%,100%,.75)}.button__content[data-v-5b5405a2]{position:relative;z-index:20;white-space:nowrap;--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}
+.footer[data-v-66be4f70]{display:flex;width:100%;flex-direction:column;padding-top:1.5rem;padding-bottom:2rem}@media (min-width: 1280px){.footer[data-v-66be4f70]{flex-direction:row}.footer[data-v-66be4f70]{justify-content:space-between}.footer[data-v-66be4f70]{padding-top:2.5rem}}</style>
+  </head>
+  <body >
+    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div class="w-screen flex flex-col h-screen overflow-auto"><div class="mobile-menu z-40 mobile-menu--hidden"><div class="flex justify-between px-8 sm:py-7 py-6"><div class="h-10"><a href="index.html" class="link--active"><svg width="176" height="25" viewBox="0 0 176 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-10"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.4608 25C19.3424 25 24.9216 19.4072 24.9216 12.5088C24.9392 5.5928 19.3424 0 12.4608 0C5.5792 0 0 5.5928 0 12.4912C0 19.3896 5.5792 25 12.4608 25ZM7.6384 7.18066L12.3024 11.856V7.42766C12.3024 7.39238 12.3024 7.33945 12.32 7.30416C12.3376 7.26888 12.3552 7.23359 12.3904 7.19831C12.4256 7.16302 12.4608 7.14538 12.496 7.12774C12.5312 7.11009 12.584 7.11009 12.6192 7.11009H17.864H17.8816C17.8816 7.11009 17.8816 7.11009 17.8992 7.11009C17.9344 7.11009 17.9872 7.12774 18.0224 7.12774C18.0576 7.14538 18.0928 7.16302 18.128 7.19831C18.1632 7.23359 18.1808 7.26888 18.1984 7.30416C18.216 7.33945 18.216 7.39238 18.216 7.42766V12.65C18.216 12.6676 18.216 12.6676 18.216 12.6853V17.9428C18.216 17.9958 18.216 18.0311 18.1984 18.0663C18.1808 18.1016 18.1632 18.1369 18.128 18.1722C18.0928 18.2075 18.0576 18.2251 18.0224 18.2428C17.9872 18.2604 17.9344 18.2604 17.8992 18.2604C17.8464 18.2604 17.8112 18.2604 17.7584 18.2428C17.7232 18.2251 17.6704 18.2075 17.6528 18.1722L12.9888 13.4968V17.9428C12.9888 17.9781 12.9888 18.0311 12.9712 18.0663C12.9536 18.1016 12.936 18.1369 12.9008 18.1722C12.8656 18.2075 12.8304 18.2251 12.7952 18.2428C12.76 18.2604 12.7072 18.2604 12.672 18.2604H7.4096H7.392C7.3568 18.2604 7.304 18.2428 7.2688 18.2428C7.2336 18.2251 7.1984 18.2075 7.1632 18.1722C7.128 18.1369 7.1104 18.1016 7.0928 18.0663C7.0752 18.0311 7.0752 17.9781 7.0752 17.9428V12.6853C7.0752 12.65 7.0752 12.6323 7.0928 12.597V7.42766C7.0928 7.35709 7.1104 7.30416 7.1456 7.23359C7.1808 7.18066 7.2336 7.12773 7.304 7.11009C7.3568 7.09245 7.4272 7.07481 7.4976 7.09245C7.5328 7.11009 7.6032 7.14538 7.6384 7.18066Z" fill="#DF42AB"></path><path d="M46.552 2.15234H49.456V22.1594H46.5696L34.3904 5.96321V22.1594H31.504V2.15234H35.024L46.552 17.2017V2.15234Z" fill="#DF42AB"></path><path d="M52.0081 22.1594V2.15234H66.7921V4.99285H54.9121V10.4269H65.9121V13.2674H54.9121V19.3365H66.7921V22.177H52.0081V22.1594Z" fill="#DF42AB"></path><path d="M67.3904 12.156C67.3904 6.4573 71.5616 1.729 77.7568 1.729C84.0048 1.729 88.1584 6.43966 88.1584 12.156C88.1584 17.8899 83.9872 22.5476 77.7568 22.5476C71.5792 22.5476 67.3904 17.8899 67.3904 12.156ZM85.2368 12.156C85.2368 8.00988 82.28 4.56951 77.7568 4.56951C73.2864 4.56951 70.312 8.00988 70.312 12.156C70.312 16.2844 73.2688 19.7424 77.7568 19.7424C82.3152 19.7424 85.2368 16.2668 85.2368 12.156Z" fill="#DF42AB"></path><path d="M105.037 2.15234H107.923V22.1594H105.037L92.8576 5.96321V22.1594H89.9712V2.15234H93.5088L105.037 17.2017V2.15234Z" fill="#DF42AB"></path><path d="M116.917 22.1594V2.15234H131.701V4.99285H119.821V10.4269H130.821V13.2674H119.821V19.3365H131.701V22.177H116.917V22.1594Z" fill="#DF42AB"></path><path d="M150.04 2.15234H153.19L144.602 22.1594H141.381L132.792 2.15234H136.013L143.07 18.6661L150.04 2.15234Z" fill="#DF42AB"></path><path d="M176 22.1594H173.114V6.63364L166.408 22.1594H163.909L157.256 6.72186V22.1594H154.37V2.15234H158.365L165.246 18.1015L172.093 2.15234H176V22.1594Z" fill="#DF42AB"></path></svg></a></div> <div class="w-32px h-32px flex flex-col items-center justify-center relative z-20"><svg width="24" height="24" viewBox="0 0 24 24" class="cursor-pointer"><g clip-path="url(#clipping_cross_icon)"><rect width="19.3608" height="2.1512" rx="1.0756" transform="matrix(-0.723111 0.690732 -0.72311 -0.690732 19.7778 5.80266)" fill="white"></rect> <rect width="19.3608" height="2.1512" rx="1.0756" transform="matrix(0.72311 0.690732 -0.72311 0.690732 5.77783 4.31675)" fill="white"></rect></g> <defs><clipPath id="clipping_cross_icon"><rect width="24" height="22.9254" fill="currentColor" transform="translate(0 0.283585)"></rect></clipPath></defs></svg></div></div> <div class="flex flex-col grid-plate"><div><a href="developers.html" class="link mobile-menu__item">Developers</a></div> <div class="spoiler" data-v-8ff44950><div class="spoiler__row" data-v-8ff44950><div class="spoiler__title" data-v-8ff44950><span class="mobile-menu__item" data-v-8ff44950>Community</span></div> <div class="spoiler__action" data-v-8ff44950><div class="w-32px h-32px flex justify-end items-center" data-v-8ff44950><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="spoiler__chevron" data-v-8ff44950><path d="M17.6994 8.31952C18.1002 8.74555 18.1002 9.43627 17.6994 9.8623L12.2257 15.6805C11.8249 16.1065 11.1751 16.1065 10.7743 15.6805L5.3006 9.8623C4.8998 9.43627 4.8998 8.74555 5.3006 8.31952C5.7014 7.89349 6.35123 7.89349 6.75203 8.31952L11.5 13.3663L16.248 8.31952C16.6488 7.89349 17.2986 7.89349 17.6994 8.31952Z" fill="white"></path></svg></div></div></div> <div class="spoiler__content" data-v-8ff44950> <div data-v-8ff44950><div class="mb-2"><a href="community.html" class="link flex-col w-full pt-4 pb-2"><span class="flex items-center"><span class="link__title">Home</span></span> <span class="link__summary">Join our community</span></a></div> <div class="mt-2"><a href="events.html" class="link flex-col w-full pb-4 pt-2"><span class="flex items-center"><span class="link__title">Events</span></span> <span class="link__summary">Join Neon events all around the globe</span></a></div></div></div></div> <div><a href="#" target="" rel="" class="link mobile-menu__item">Operators <!----></a></div> <div><a href="#" target="" rel="" class="link mobile-menu__item">Governance <!----></a></div> <div class="spoiler" data-v-8ff44950><div class="spoiler__row" data-v-8ff44950><div class="spoiler__title" data-v-8ff44950><span class="mobile-menu__item" data-v-8ff44950>Tools</span></div> <div class="spoiler__action" data-v-8ff44950><div class="w-32px h-32px flex justify-end items-center" data-v-8ff44950><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="spoiler__chevron" data-v-8ff44950><path d="M17.6994 8.31952C18.1002 8.74555 18.1002 9.43627 17.6994 9.8623L12.2257 15.6805C11.8249 16.1065 11.1751 16.1065 10.7743 15.6805L5.3006 9.8623C4.8998 9.43627 4.8998 8.74555 5.3006 8.31952C5.7014 7.89349 6.35123 7.89349 6.75203 8.31952L11.5 13.3663L16.248 8.31952C16.6488 7.89349 17.2986 7.89349 17.6994 8.31952Z" fill="white"></path></svg></div></div></div> <div class="spoiler__content" data-v-8ff44950> <div data-v-8ff44950><div class="mb-2"><a href="https://neonscan.org/" target="_blank" rel="noopener noreferrer" class="link flex-col w-full pt-4 pb-2"><span class="flex items-center"><span class="link__title">Explorer</span> <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 8C7 7.44772 7.44772 7 8 7H16V9H8C7.44772 9 7 8.55228 7 8Z" fill="currentColor"></path><path d="M16 17C15.4477 17 15 16.5523 15 16L15 7L17 7L17 16C17 16.5523 16.5523 17 16 17Z" fill="currentColor"></path><path d="M6.28914 17.711C5.89861 17.3205 5.89861 16.6873 6.28914 16.2968L15.3633 7.22266L16.7775 8.63687L7.70335 17.711C7.31283 18.1015 6.67966 18.1015 6.28914 17.711Z" fill="currentColor"></path></svg></span> <span class="link__summary">See transaction info on block explorer</span> <!----></a></div></div><div data-v-8ff44950><div class="mb-2"><a href="https://neonpass.live/" target="_blank" rel="noopener noreferrer" class="link flex-col w-full pt-4 pb-2"><span class="flex items-center"><span class="link__title">NeonPass</span> <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 8C7 7.44772 7.44772 7 8 7H16V9H8C7.44772 9 7 8.55228 7 8Z" fill="currentColor"></path><path d="M16 17C15.4477 17 15 16.5523 15 16L15 7L17 7L17 16C17 16.5523 16.5523 17 16 17Z" fill="currentColor"></path><path d="M6.28914 17.711C5.89861 17.3205 5.89861 16.6873 6.28914 16.2968L15.3633 7.22266L16.7775 8.63687L7.70335 17.711C7.31283 18.1015 6.67966 18.1015 6.28914 17.711Z" fill="currentColor"></path></svg></span> <span class="link__summary">Transfer SPL tokens between Solana and Neon</span> <!----></a></div></div><div data-v-8ff44950><div class="mb-2"><a href="https://neonfaucet.org/" target="_blank" rel="noopener noreferrer" class="link flex-col w-full pt-4 pb-2"><span class="flex items-center"><span class="link__title">NeonFaucet</span> <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 8C7 7.44772 7.44772 7 8 7H16V9H8C7.44772 9 7 8.55228 7 8Z" fill="currentColor"></path><path d="M16 17C15.4477 17 15 16.5523 15 16L15 7L17 7L17 16C17 16.5523 16.5523 17 16 17Z" fill="currentColor"></path><path d="M6.28914 17.711C5.89861 17.3205 5.89861 16.6873 6.28914 16.2968L15.3633 7.22266L16.7775 8.63687L7.70335 17.711C7.31283 18.1015 6.67966 18.1015 6.28914 17.711Z" fill="currentColor"></path></svg></span> <span class="link__summary">Request Test tokens on Neon devnet</span> <!----></a></div></div></div></div> <div><a href="faq.html" class="link mobile-menu__item">FAQ</a></div></div></div> <div id="header" class="header fixed top-0 w-full flex justify-between mx-auto md:pr-3 fixed z-30 w-full top-0"><div class="w-full md:mx-auto md:max-w-1040px flex justify-between items-center px-8 py-5 md:py-0 md:px-0"><div class="h-10 flex items-center"><a href="index.html" class="link--active"><svg width="176" height="25" viewBox="0 0 176 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-20"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.4608 25C19.3424 25 24.9216 19.4072 24.9216 12.5088C24.9392 5.5928 19.3424 0 12.4608 0C5.5792 0 0 5.5928 0 12.4912C0 19.3896 5.5792 25 12.4608 25ZM7.6384 7.18066L12.3024 11.856V7.42766C12.3024 7.39238 12.3024 7.33945 12.32 7.30416C12.3376 7.26888 12.3552 7.23359 12.3904 7.19831C12.4256 7.16302 12.4608 7.14538 12.496 7.12774C12.5312 7.11009 12.584 7.11009 12.6192 7.11009H17.864H17.8816C17.8816 7.11009 17.8816 7.11009 17.8992 7.11009C17.9344 7.11009 17.9872 7.12774 18.0224 7.12774C18.0576 7.14538 18.0928 7.16302 18.128 7.19831C18.1632 7.23359 18.1808 7.26888 18.1984 7.30416C18.216 7.33945 18.216 7.39238 18.216 7.42766V12.65C18.216 12.6676 18.216 12.6676 18.216 12.6853V17.9428C18.216 17.9958 18.216 18.0311 18.1984 18.0663C18.1808 18.1016 18.1632 18.1369 18.128 18.1722C18.0928 18.2075 18.0576 18.2251 18.0224 18.2428C17.9872 18.2604 17.9344 18.2604 17.8992 18.2604C17.8464 18.2604 17.8112 18.2604 17.7584 18.2428C17.7232 18.2251 17.6704 18.2075 17.6528 18.1722L12.9888 13.4968V17.9428C12.9888 17.9781 12.9888 18.0311 12.9712 18.0663C12.9536 18.1016 12.936 18.1369 12.9008 18.1722C12.8656 18.2075 12.8304 18.2251 12.7952 18.2428C12.76 18.2604 12.7072 18.2604 12.672 18.2604H7.4096H7.392C7.3568 18.2604 7.304 18.2428 7.2688 18.2428C7.2336 18.2251 7.1984 18.2075 7.1632 18.1722C7.128 18.1369 7.1104 18.1016 7.0928 18.0663C7.0752 18.0311 7.0752 17.9781 7.0752 17.9428V12.6853C7.0752 12.65 7.0752 12.6323 7.0928 12.597V7.42766C7.0928 7.35709 7.1104 7.30416 7.1456 7.23359C7.1808 7.18066 7.2336 7.12773 7.304 7.11009C7.3568 7.09245 7.4272 7.07481 7.4976 7.09245C7.5328 7.11009 7.6032 7.14538 7.6384 7.18066Z" fill="#DF42AB"></path><path d="M46.552 2.15234H49.456V22.1594H46.5696L34.3904 5.96321V22.1594H31.504V2.15234H35.024L46.552 17.2017V2.15234Z" fill="#DF42AB"></path><path d="M52.0081 22.1594V2.15234H66.7921V4.99285H54.9121V10.4269H65.9121V13.2674H54.9121V19.3365H66.7921V22.177H52.0081V22.1594Z" fill="#DF42AB"></path><path d="M67.3904 12.156C67.3904 6.4573 71.5616 1.729 77.7568 1.729C84.0048 1.729 88.1584 6.43966 88.1584 12.156C88.1584 17.8899 83.9872 22.5476 77.7568 22.5476C71.5792 22.5476 67.3904 17.8899 67.3904 12.156ZM85.2368 12.156C85.2368 8.00988 82.28 4.56951 77.7568 4.56951C73.2864 4.56951 70.312 8.00988 70.312 12.156C70.312 16.2844 73.2688 19.7424 77.7568 19.7424C82.3152 19.7424 85.2368 16.2668 85.2368 12.156Z" fill="#DF42AB"></path><path d="M105.037 2.15234H107.923V22.1594H105.037L92.8576 5.96321V22.1594H89.9712V2.15234H93.5088L105.037 17.2017V2.15234Z" fill="#DF42AB"></path><path d="M116.917 22.1594V2.15234H131.701V4.99285H119.821V10.4269H130.821V13.2674H119.821V19.3365H131.701V22.177H116.917V22.1594Z" fill="#DF42AB"></path><path d="M150.04 2.15234H153.19L144.602 22.1594H141.381L132.792 2.15234H136.013L143.07 18.6661L150.04 2.15234Z" fill="#DF42AB"></path><path d="M176 22.1594H173.114V6.63364L166.408 22.1594H163.909L157.256 6.72186V22.1594H154.37V2.15234H158.365L165.246 18.1015L172.093 2.15234H176V22.1594Z" fill="#DF42AB"></path></svg></a></div> <div class="flex items-center"><div><a href="developers.html" class="link menu-item">Developers</a></div> <div class="dropdown menu-item" data-v-3a0b46fe><div class="dropdown__link link" data-v-3a0b46fe><span data-v-3a0b46fe>Community</span> <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="dropdown__icon ml-2" data-v-3a0b46fe><path d="M17.6994 8.31952C18.1002 8.74555 18.1002 9.43627 17.6994 9.8623L12.2257 15.6805C11.8249 16.1065 11.1751 16.1065 10.7743 15.6805L5.3006 9.8623C4.8998 9.43627 4.8998 8.74555 5.3006 8.31952C5.7014 7.89349 6.35123 7.89349 6.75203 8.31952L11.5 13.3663L16.248 8.31952C16.6488 7.89349 17.2986 7.89349 17.6994 8.31952Z" fill="currentColor"></path></svg></div> <div class="dropdown__list dropdown__list--left" data-v-3a0b46fe> <div class="mb-2"><a href="community.html" class="link flex-col w-full link--black"><span class="link__title">Home</span> <span class="link__summary">Join our community</span></a></div> <div class="mt-2"><a href="events.html" class="link flex-col w-full link--black"><span class="link__title">Events</span> <span class="link__summary">Join Neon events all around the globe</span></a></div></div></div> <div><a href="#" target="" rel="" class="link menu-item">Operators <!----></a></div> <div><a href="#" target="" rel="" class="link menu-item">Governance <!----></a></div> <div class="dropdown menu-item" data-v-3a0b46fe><div class="dropdown__link link" data-v-3a0b46fe><span data-v-3a0b46fe>Tools</span> <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="dropdown__icon ml-2" data-v-3a0b46fe><path d="M17.6994 8.31952C18.1002 8.74555 18.1002 9.43627 17.6994 9.8623L12.2257 15.6805C11.8249 16.1065 11.1751 16.1065 10.7743 15.6805L5.3006 9.8623C4.8998 9.43627 4.8998 8.74555 5.3006 8.31952C5.7014 7.89349 6.35123 7.89349 6.75203 8.31952L11.5 13.3663L16.248 8.31952C16.6488 7.89349 17.2986 7.89349 17.6994 8.31952Z" fill="currentColor"></path></svg></div> <div class="dropdown__list dropdown__list--left" data-v-3a0b46fe> <div data-v-3a0b46fe><div class="mb-3"><a href="https://neonscan.org/" target="_blank" rel="noopener noreferrer" class="link flex-col w-full link--black"><span class="flex items-center mb-1"><span class="link__title">Explorer</span> <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 8C7 7.44772 7.44772 7 8 7H16V9H8C7.44772 9 7 8.55228 7 8Z" fill="currentColor"></path><path d="M16 17C15.4477 17 15 16.5523 15 16L15 7L17 7L17 16C17 16.5523 16.5523 17 16 17Z" fill="currentColor"></path><path d="M6.28914 17.711C5.89861 17.3205 5.89861 16.6873 6.28914 16.2968L15.3633 7.22266L16.7775 8.63687L7.70335 17.711C7.31283 18.1015 6.67966 18.1015 6.28914 17.711Z" fill="currentColor"></path></svg></span> <span class="link__summary">See transaction info on block explorer</span> <!----></a></div></div><div data-v-3a0b46fe><div class="mb-3"><a href="https://neonpass.live/" target="_blank" rel="noopener noreferrer" class="link flex-col w-full link--black"><span class="flex items-center mb-1"><span class="link__title">NeonPass</span> <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 8C7 7.44772 7.44772 7 8 7H16V9H8C7.44772 9 7 8.55228 7 8Z" fill="currentColor"></path><path d="M16 17C15.4477 17 15 16.5523 15 16L15 7L17 7L17 16C17 16.5523 16.5523 17 16 17Z" fill="currentColor"></path><path d="M6.28914 17.711C5.89861 17.3205 5.89861 16.6873 6.28914 16.2968L15.3633 7.22266L16.7775 8.63687L7.70335 17.711C7.31283 18.1015 6.67966 18.1015 6.28914 17.711Z" fill="currentColor"></path></svg></span> <span class="link__summary">Transfer SPL tokens between Solana and Neon</span> <!----></a></div></div><div data-v-3a0b46fe><div class="mb-3"><a href="https://neonfaucet.org/" target="_blank" rel="noopener noreferrer" class="link flex-col w-full link--black"><span class="flex items-center mb-1"><span class="link__title">NeonFaucet</span> <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 8C7 7.44772 7.44772 7 8 7H16V9H8C7.44772 9 7 8.55228 7 8Z" fill="currentColor"></path><path d="M16 17C15.4477 17 15 16.5523 15 16L15 7L17 7L17 16C17 16.5523 16.5523 17 16 17Z" fill="currentColor"></path><path d="M6.28914 17.711C5.89861 17.3205 5.89861 16.6873 6.28914 16.2968L15.3633 7.22266L16.7775 8.63687L7.70335 17.711C7.31283 18.1015 6.67966 18.1015 6.28914 17.711Z" fill="currentColor"></path></svg></span> <span class="link__summary">Request Test tokens on Neon devnet</span> <!----></a></div></div></div></div> <div><a href="faq.html" class="link menu-item">FAQ</a></div></div> <div class="flex items-center"><button data-luma-event-id="" class="md:ml-10 sm:mr-10 md:mr-0 button inline-flex  button--gradient button--bordered" data-v-5b5405a2><span class="button__content" data-v-5b5405a2>use neon</span></button> <!----></div></div></div> <div><div class="page"><div class="w-full bg-black_bg text-black"><div class="page__content"><div class="w-full grid-plate text-center md:flex md:flex-col sm:items-center pt-8 sm:pt-20 md:pt-24 pb-10"><h1 class="text-5xl leading-supertight text-white md:text-6xl sm:max-w-lg md:max-w-4xl sm:mx-auto font-bold mb-8 sm:mb-4 md:mb-8 pt-8 sm:pt-0">
+            Privacy Policy
+          </h1></div></div></div> <div class="w-full bg-white_bg text-black"><div class="page__content"><div class="px-8 markdown-content"><div class="nuxt-content"><p>Last updated: 8.06.2023</p>
+<hr>
+<p><strong>1. INTRODUCTION</strong></p>
+<p>1.1. This Privacy Policy for Neon Protocol Ltd (“<strong>Neon</strong>”, “<strong>we</strong>”, “<strong>us</strong>”, “<strong>our</strong>”), a legal entity established and existed in accordance with the laws of Cayman Islands, having a registered office at Jayla Place, 2nd Floor, Road Town, Tortola, British Virgin Islands VG1110, BVI COMPANY NUMBER: 2112318.</p>
+<p>1.2.  This Privacy Policy describes how Neon may process your personal data (as defined below). Please take a moment to read this Privacy Policy carefully. This applies to the personal data we collect:</p>
+<ul>
+<li>on this Website (“<strong>Website</strong>”), which Neon owns and operates;</li>
+<li>when you access or use our applications and services;</li>
+<li>when you intentionally provide us with information, which contains your personal data (e.g. by
+sending us a message by the email).</li>
+</ul>
+<p>1.3.  By accessing / using our Website, applications and other services (hereinafter collectively referred as “<strong>Services</strong>”) you confirm that you understand that processing of your personal data (including transfer and disclosure) will be governed by this Privacy Policy. If you do not agree with the terms and conditions of this Privacy Policy, you must immediately stop using any of our Services and contact us so that we can take the best efforts in regard to deleting / restricting / anonymizing of your personal data we can control (if applicable).</p>
+<p>1.4.  This Privacy Policy is one of the documents that may govern the legal relationship between you and Neon. This Privacy Policy supplements other documents, which governs the provision of our Services (including <a href="cookie-policy.html">Cookie Policy</a>) and should be read in conjunction with them.</p>
+<p>1.5. If you have any questions related to the processing of your personal data, you can write to our legal and compliance team at <a href="mailto:legal@neonevm.org">legal@neonevm.org</a>.</p>
+<p><strong>2. WHAT TYPES OF INFORMATION WE COLLECT?</strong></p>
+<p>2.1.  <strong>What the personal data is.</strong> “Personal data” means any information that relates to an identified or identifiable living individual and other information about the person or related to the person. Different pieces of information, which collected together can lead to the identification of a particular person, also constitute personal data.</p>
+<p>2.2.  <strong>Categories of personal data that we process in relation to service provision to our users</strong> . We
+generally process different kinds of personal data which we have grouped together as follows:</p>
+<ul>
+<li><strong>Identity Data</strong> includes your name, gender, photo, title, username and similar information;</li>
+<li><strong>Contact Data</strong> includes email address, telephone number and postal address and/or similar
+information;</li>
+<li><strong>Blockchain and Transaction Data</strong> includes crypto wallet address, public blockchain data
+about your transactions and similar information;</li>
+<li><strong>Technical Data</strong> includes device identifiers, browser version and type, IP address and similar
+information;</li>
+<li><strong>Usage Data</strong> such as how you use our Services, this also includes information we or others
+collect about you from cookies and similar tracking technologies (e.g. web beacons and pixels);</li>
+<li><strong>Marketing and Communications Data</strong> includes your preferences in relation to receiving
+marketing materials, your communication preferences and similar information;</li>
+<li><strong>Other Data</strong> such as any other data generated (obtained) in the course of our interaction with
+you (e.g., your directions or instructions given to us), customer’s feedback, survey results and
+similar information.</li>
+</ul>
+<p>2.3.  <strong>Anonymized data.</strong> We may anonymize your personal data or aggregate it (“<strong>Anonymized data</strong>”),
+so that it can no longer be associated with you or identify you, in which case we may use such
+Anonymized data for any purposes or share it with another person without any restrictions.</p>
+<p><strong>3. HOW WE COLLECT YOUR INFORMATION</strong></p>
+<p>3.1 <strong>Information you provide to us directly.</strong> We collect personal data that is relevant to our relationship with you. We may collect information by the direct interaction with you, this includes personal data you provide when you:</p>
+<ul>
+<li>register in our Services;</li>
+<li>participate in our surveys or polls;</li>
+<li>fill out any forms;</li>
+<li>enter in any agreements with;</li>
+<li>manage marketing emails;</li>
+<li>contacting for help or technical support;</li>
+<li>submit your personal data to us for any other reason.</li>
+</ul>
+<p>Information,   collected   by   direct   interaction   with   you   generally   includes   the   following   types of personal data:</p>
+<ul>
+<li>Identity Data;</li>
+<li>Contact Data;</li>
+<li>Blockchain and Transaction Data;</li>
+<li>Marketing and Communications Data;</li>
+<li>Other Data.</li>
+</ul>
+<p>3.2 <strong>Information we  collect from  you automatically</strong>. While interacting with our Services, we may collect some information containing your personal data automatically. Information collected automatically includes Technical and Usage Data. We may collect this information by ways of monitoring, which are part of our Services, including cookies and similar technologies.</p>
+<p>3.3 <strong>Information we receive about you from the third parties and other sources</strong>. We may receive
+information about you from third parties or other sources:</p>
+<ul>
+<li>Usage and Technical Data may be provided by our partners;</li>
+<li>we   may   collect   Blockchain   and   Transaction   Data   by   viewing   public   blockchains   and
+transactions are made in them;</li>
+<li>in some cases your personal data, including but not limited Identity and Contact Data may be
+provided to us by the third parties, which refers to you (e.g. for business purposes) or acts in
+your interest.</li>
+</ul>
+<p><strong>4. HOW WE USE YOUR PERSONAL DATA</strong></p>
+<p>4.1.  <strong>In general</strong>. Each data processing activity will be carried out for a specific purpose (generally
+determined by the nature of our business or our legal obligations) and will be based on at least one
+of the following lawful grounds:</p>
+<ul>
+<li>when we have your consent;</li>
+<li>when we need to comply with legal obligations (statutory or based on common law);</li>
+<li>when it is required to establish and perform an obligation, which is based on a contract;</li>
+<li>when we have a legitimate interest.</li>
+</ul>
+<p>4.2.  In order to provide you with a more detailed understanding of the purposes of data processing, we
+have set out the purposes of processing in the table below, accompanied by examples of activities,
+for which personal data is processed and the legal basis on which we carry out the relevant
+processing:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Purpose</th><th>Example of activity</th><th align="left">Legal basis for processing</th></tr></thead><tbody><tr><td align="left">Providing the services to the general audience</td><td>- Account creation (if applicable<br>- Enable general audience to access and use our services</td><td align="left">(a) Contract performance<br>(b) Consent (additionally)</td></tr><tr><td align="left">Providing support for our users and ensure quality control</td><td>- Creating bug tickets<br>- Bugs fixing and troubleshooting<br>Receive and answer your technical questions</td><td align="left">(a) Contract performance <br>(b) Legitimate interest</td></tr><tr><td align="left">Product researches and development</td><td>- Providing opportunities to participate in product tests (including faucet)<br>- Research and development of our products and services <br> - Allow you voting on certain issues as a part of community</td><td align="left">(a) Legitimate interest<br>(b) Contract (if applicable)<br>(c) Consent (additionally)</td></tr><tr><td align="left">Conducting marketing activities and delivering advertising to our users</td><td>- Send you advertising information<br>- Show you the most relevant ads and explore your interests</td><td align="left">(a) Consent <br>(b) Legitimate interest (if applicable)</td></tr><tr><td align="left">To use data analytics to improve and develop <br>our services and understand the needs of our users</td><td>- Analyzing user activity<br>- Improve our services based on the data we collect</td><td align="left">(a) Consent<br>(b) Legitimate interest (if applicable)</td></tr><tr><td align="left">To use data analytics to improve and develop <br>our services and understand the needs of our users</td><td>- Analyzing user activity<br>- Improve our services based on the data we collect</td><td align="left">(a) Consent<br>(b) Legitimate interest (if applicable)</td></tr><tr><td align="left">Providing security for our services and integrity of our business</td><td>- Audit of our services<br>- Fraud prevention activities</td><td align="left">(a) Legitimate interest</td></tr><tr><td align="left">Compliance   with   our   legal   and ethical   obligations;<br>  establish   a legal protection for our business<br> or using the information for public safety</td><td>- Identity identification and KYC<br>- Reporting officials about crime and suspicious activity<br>- Restricting access to the forum (e.g. in the case of hate speech)<br>- Keeping records for litigation purposes</td><td align="left">(a) Legal obligations<br>(b) Legitimate interest</td></tr><tr><td align="left">Sending notifications</td><td>- Sending you newsletter<br>- Report you on current status of our orders<br>- Sending you data breach notification</td><td align="left">(a) Legitimate interest<br>(b) Legal obligations (if applicable)<br>(c) Consent (additionally)</td></tr><tr><td align="left">To develop our business and (or) participate in transactions</td><td>- To enable us participate in market transactions (corporate acquisitions, transfer of business)</td><td align="left">(a) Legitimate interest</td></tr></tbody></table>
+<p>4.3.  <strong>Purpose limitation.</strong> We have tried to tell you about the purposes for the processing your personal
+data in clear and transparent way. We accept the possibility that new purposes for processing of
+your personal data may arise in the process of our interaction with you. We will only process data
+for a new purpose if:</p>
+<ul>
+<li>the new purpose is compatible with the original purpose; or</li>
+<li>the new purpose of data processing is required by the applicable laws; or</li>
+<li>we have your consent to process personal data for a new purpose.
+As   a   general   rule,   if   the   new   purpose   is   significantly   different   from   the   original   goal   or   looks
+unexpected, we will not consider it as “compatible”.</li>
+</ul>
+<p><strong>5. MARKETING. COOKIES AND ANALITICS.</strong></p>
+<p>5.1.  We   may   use   your   personal   data   for   marketing   purposes.   If   you   receive   direct   marketing
+communications, you <strong>always</strong> have the right to unsubscribe from it. Please note that opting out of
+receiving marketing communications does not affect other notices that may be sent to you from
+time to time.</p>
+<p>5.2.  In the course of our interaction with you we may use cookies and similar technologies (“<strong>Cookies</strong>”). Cookies, in particular, helps to identify you, analyze your preferences, improve and secure the Service and to personalize content and features and tailor advertisement. Please read our <a href="cookie-policy.html">Cookie Policy</a>. For further information about cookies, visit <a href="https://www.allaboutcookies.org/" rel="nofollow noopener noreferrer" target="_blank">www.allaboutcookies.org</a>.</p>
+<p>5.3.  To understand how users interact with our Services, we may use our own or third-party data
+analysis solutions (such as Google analytics). You may exercise choices regarding the use of
+cookies from Google Analytics by going to <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener noreferrer" target="_blank">https://tools.google.com/dlpage/gaoptout</a>.</p>
+<p><strong>6. CHILDREN’S PERSONAL DATA</strong></p>
+<p>6.1. Our Services are not intended for children. We do not knowingly solicit or collect information from the persons under the age of 18.</p>
+<p>6.2. If you are a parent or guardian of a child and believe that we have collected child’s personal data, please contact us. If we discover that personal data relating to a child is under our control, we will take steps to delete or otherwise “forget” such information.</p>
+<p><strong>7. HOW WE DISCLOSE YOUR PERSONAL DATA</strong></p>
+<p>7.1. In the course of conducting our business, in order to execute the purposes of data processing describing above we may share your personal data with the third parties. For example, we may share your personal data to the following categories of recipients as follows:</p>
+<ul>
+<li><strong>To our subsidiaries and affiliates</strong>: we may share your personal data with our subsidiaries and
+affiliates if it necessary to fulfil the purposes of data processing (e.g. by distribution of responsibilities within Neon and its subsidiaries and affiliates in order to provide you the possible service and customer support);</li>
+<li><strong>To professional advisers</strong>: we may share your personal data with professional advisers such as lawyers, auditors and accountants (e.g. to comply with applicable laws or obtain a legal advice or professional service);</li>
+<li><strong>To service providers and suppliers</strong>: we may share your personal data with those who need it to do work for us. Typically, this category of recipients includes independent contractors (e.g. hosting providers, data analytics provides, marketing providers, etc.);</li>
+<li><strong>To   government   authorities</strong>:   we  may   share   your   personal   data   with   law   enforcement
+agencies, when it needed to comply the law;</li>
+<li><strong>Protection and safety</strong>: we may share your personal data with social services (e.g. emergency
+or rescue service) and government bodies (e.g. courts and police) if it necessary to protect the
+health and safety of you or other people, our business or to participate in legal or administrative
+proceedings;</li>
+<li><strong>Business  Transfers</strong>:  we  may  share your  personal  data  when  it  is  necessary  for business
+transactions, such as a sale or transfer of a business, financing, bankruptcy, or any negotiation
+of   a   deal  that   affects  our   business  (in   whole  or  in   part)  (<strong>“Business  Transactions”</strong>),   if  the
+Business Transaction cannot be normally completed without disclosure of personal data;</li>
+<li><strong>Blockchain and public display</strong>: we may publicly display your personal data when you make it
+available   through   the   blockchain   or   provide   it   for   the   purposes,   which   otherwise   requires
+displaying your personal data on the multiple devices (e.g. when you use our social platforms).</li>
+</ul>
+<p>7.2.  At your instruction or request and (or) based on your direct consent (if required) we may share your
+personal data with another categories of recipients.</p>
+<p><strong>8. INTERNATIONAL DATA TRANSFER</strong></p>
+<p>8.1.  <strong>International transfer of personal data</strong>. As a Cayman-based company we process the personal
+data, mainly, under the rules and regulations of the Cayman Islands. Whenever we transfer personal data to other jurisdictions, we will ensure that this information is transferred in accordance with this Policy and as permitted by applicable data protection laws.</p>
+<p>8.2.  <strong>Safeguards</strong>. Please be aware, that your personal data may be stored/transferred outside the jurisdiction in which such personal data was collected. Unfortunately, not all countries have an adequate level of personal data protection. In such case we will provide appropriate safeguards for the personal data transfers, where possible (e.g. by using technical and/or contractual measures).</p>
+<p>8.3.  <strong>Derogations in the specific situations</strong>. We may derogate from using of foregoing safeguards (where permitted by law), especially in the context of blockchain-based Services including (without limitation) when the data transfer is required for important reasons of public interest or in the interest of the data subject, where an applicable contract obligation exists.</p>
+<p><strong>9. SECURITY MEASURES</strong></p>
+<p>9.1. We take steps to ensure that your information is treated securely. We protect your information using physical, technical, and administrative security measures to reduce the risks of loss, unauthorized access and disclosure, taking into account the nature, scope, context and purpose of the data processing, and the existing level of risks.</p>
+<p>9.2. Unfortunately, we are unable guarantee that your personal data will always be secure, since almost any system for keeping / transmitting information can be hacked or may have vulnerabilities. We will notify you and any applicable regulator of a suspected data security breach where we are legally required to do so.</p>
+<p><strong>10. RETENTION OF PERSONAL DATA</strong></p>
+<p>10.1. <strong>In general</strong>. Basically, personal data is stored or otherwise processed only during that time when
+there is a business or compliance reason to do so.</p>
+<p>10.2. <strong>Retention Period</strong>. Processing of personal data that Neon collects, stores or otherwise use will take
+place during the specific period, during which there is a need to access such data in order to fulfill
+one or more processing purposes (<strong>“Retention Period”</strong>). In our interaction with personal data, we
+will use the principle of data minimization, which means that we strive to (i) minimize the amount of
+personal data collected; and (ii) minimize the length of the Retention Period.</p>
+<p>10.3. <strong>Length of the Retention Period</strong>. The length of the Retention Period depends on the purposes of
+data processing, taking into account the potential risk of harm from the personal data breach. Thus,
+we   will   use   your   personal  data   only   as  long   as  necessary   to   fulfil   the   purposes   for   which   the
+information is collected, unless the applicable laws require longer length of the Retention Period.
+Among other things, this means that we may retain records of you for a period of time where we
+have legal grounds, even if you have ended your interaction with us.</p>
+<p><strong>11. THIRD PARTIES AND THEIR SERVICES</strong></p>
+<p>11.1. This  Website   or   other  Services   provided   by  Neon   may   refer   or   contain   links  to   the   third-party
+services, which includes but not limited to the websites, plug-ins and applications (“<strong>Third-Party
+Services</strong>”).</p>
+<p>11.2. Please note that we cannot control Third-Party Services and its methods and ways of using your personal data, even some our own Services are combined or intended to be used together with such Third-Party Services. We encourage you to review relevant third-party privacy notices that govern their processing of your personal data before any interaction with Third-Party Services.</p>
+<p><strong>12. BLOCKCHAIN &amp; PRIVACY</strong></p>
+<p>12.1. In the process of interacting with you, Neon may provide you with blockchain-based Services or
+refers   to   the   blockchain-based   services   owned   and   operated   by   the   third   parties.   In   general,
+Blockchain can be described as a technology for distributed data storage. This means that the data
+records in  the  blockchain, by the general rule,  are (i)  immutable; (ii) decentralized (controlled /
+stored by many persons); and (iii) publicly available.</p>
+<p>12.2. In particular, blockchain has the following impact on your privacy:</p>
+<ul>
+<li>Immutability: in general, personal data placed in the blockchain cannot be deleted;</li>
+<li>Decentralization:   there   is   no   single   person   who   administer   the   blockchain   data,   due   to
+decentralized nature of the blockchain records (blockchain is governed by the multiple voices,
+not one);</li>
+<li>Public Availability: blockchain-stored information (including any personal data, if any) can be
+easily accessed by any interested person.</li>
+</ul>
+<p>12.3. Contrary   to   popular   misconception,   blockchain   transactions,   generally,   cannot   be   described   as
+“anonymous”. Information from the blockchain can be compared to other publicly / non-publicly
+information   obtained   from   other   sources.   In   particular,   this   may   lead   to   the   de-anonymization
+(disclosure of personality) and / or disclosure of your financial status and transactions.</p>
+<p>12.4. Please do not use blockchain technology if the possible impact on your privacy does not meet your
+expectations. If you are unfamiliar with blockchain technology, we strongly encourage you to do
+your   own   research   or   seek   a   professional   advice   on   how   the   blockchain   may   impact   on   your
+privacy.</p>
+<p><strong>13. YOUR RIGHTS</strong></p>
+<p>13.1. <strong>Rights you may enjoy.</strong> Depending on the jurisdiction, in which you reside and (or) we provide
+Services, you may have certain rights regarding the control of your privacy. For example, GDPR and similar laws provide you the following rights:</p>
+<ul>
+<li><strong>Access</strong>: the right to require us provide you with confirmation of data processing activity, a copy
+of the personal data processed and supplementary information, such as the terms under which
+we process your personal data (these terms are already described in this privacy policy);</li>
+<li><strong>Rectification</strong>: the right to require us correct incorrect personal data or complete it;</li>
+<li><strong>Erasure</strong> (right “to be forgotten”): the right to require us to erase your personal data;</li>
+<li><strong>Restriction of processing</strong>: the right to require us to restrict using of your personal data in
+certain   circumstances   (when   processing   is   restricting,   we,   generally,   may   only   store   your
+personal data and will refrain from most other processing activities);</li>
+<li><strong>Data portability</strong>: the right to require use to provide you with a copy of your personal data in
+structured, commonly used and machine-readable format;</li>
+<li><strong>Object</strong>: the right to object  to the processing of their personal data in certain circumstances
+(have   an   absolute   right   to   stop   direct   marketing   communications   with   you,   or,   in   certain
+circumstances, may object against processing, which is based on legitimate interests);</li>
+<li><strong>Withdrawal</strong>: the right to withdraw your consent to the processing of personal data (this will not
+affect the lawfulness of processing based on consent before its withdrawal).</li>
+</ul>
+<p>13.2. We will not use any automated individual decision-making (i.e. a decision making process, which used solely automated means without any human involvement), including profiling, which produces legal effects concerning your rights or which may significantly affect you, unless:</p>
+<ul>
+<li>it is necessary for the entry into or performance of a contract;</li>
+<li>it is authorized by the applicable laws;</li>
+<li>it is based on the individual’s explicit consent.</li>
+</ul>
+<p>13.3. We will be happy if you contact us and we will consider the opportunity to help you exercise your rights. Please note that, in general, these rights are not absolute and requests to exercise them may be denied in certain circumstances.</p>
+<p><strong>14. RIGHT TO LODGE A COMPLAINT</strong></p>
+<p>14.1. If   you   believe   that   we   are   violating   your   privacy   rights   or   handling   your   personal   data
+inappropriately, you have the right to file a complaint with your national data protection authority
+(<strong>“Data Protection Authority”</strong>) or bring a suit in the court. We would be happy if you contact us
+before doing this so that we can take steps to resolve your problem or clear your doubts regarding
+your personal data treatment.</p>
+<p>14.2. Contact details of Data Protection Authority in several jurisdictions can be found by the links below:</p>
+<p><strong>For individuals in the EU</strong>: <a href="https://edpb.europa.eu/about-edpb/board/members_en" rel="nofollow noopener noreferrer" target="_blank">https://edpb.europa.eu/about-edpb/board/members_en</a> <br>
+<strong>For individuals in the UK</strong>: <a href="https://ico.org.uk/global/contact-us/" rel="nofollow noopener noreferrer" target="_blank">https://ico.org.uk/global/contact-us/</a> <br>
+<strong>For individuals in the Cayman Islands</strong>: <a href="https://ombudsman.ky/privacy-policy" rel="nofollow noopener noreferrer" target="_blank">https://ombudsman.ky/privacy-policy</a></p>
+<p><strong>15. HOW WE UPDATE THIS PRIVACY POLICY</strong></p>
+<p>15.1. Wereservetherighttoupdateourprivacypracticesforbusiness,legaloroperationalreasonsatany time. We will provide you with the most actual information on how we treat your personal data by updating this Privacy Policy.</p>
+<p>15.2. We recommend you reviewing the current version of this Privacy Policy, available at the following link <a href="privacy-policy.html" rel="nofollow noopener noreferrer" target="_blank">https://neonevm.org/privacy-policy</a>, to stay up to date with the latest changes. The date the Privacy Policy was last revised is identified at the top of this page. In the event of material changes in our privacy practices, we may additionally notify you (e.g. by placing the notification on the main page of our Website or by email).</p></div></div></div></div></div></div> <div class="footer bg-white_bg" data-v-66be4f70><div class="w-full grid-plate sm:flex sm:flex-col md:flex-row sm:items-center" data-v-66be4f70><div class="md:w-1/3 sm:w-full flex sm:justify-center md:justify-start pb-8 md:pb-0 sm:order-1 md:order-0" data-v-66be4f70><a rel="noopener noreferrer" href="https://twitter.com/Neon_EVM" target="_blank" class="w-32px h-32px flex items-center mr-8 fill-black" data-v-66be4f70><svg width="30" height="24" viewBox="0 0 30 24" fill="inherit" xmlns="http://www.w3.org/2000/svg" data-v-66be4f70 data-v-66be4f70><path d="M26.1702 5.97474C26.188 6.23512 26.188 6.4955 26.188 6.75829C26.188 14.7654 20.171 24 9.16876 24V23.9952C5.91865 24 2.73606 23.0569 0 21.2786C0.472592 21.3362 0.947553 21.365 1.4237 21.3662C4.11712 21.3686 6.73355 20.453 8.85252 18.7671C6.29294 18.7179 4.04842 17.0272 3.26432 14.559C4.16094 14.7342 5.08481 14.6982 5.96485 14.4546C3.1743 13.8834 1.16667 11.3996 1.16667 8.51498C1.16667 8.48858 1.16667 8.46338 1.16667 8.43818C1.99815 8.90735 2.92912 9.16774 3.88141 9.19653C1.25314 7.41705 0.442981 3.87487 2.03013 1.10545C5.06704 4.89121 9.54778 7.19266 14.3578 7.43625C13.8757 5.33158 14.5343 3.12612 16.0883 1.64661C18.4974 -0.647644 22.2865 -0.530052 24.5511 1.90939C25.8907 1.64181 27.1746 1.14384 28.3496 0.438287C27.9031 1.841 26.9685 3.03252 25.7201 3.78968C26.9058 3.64808 28.0642 3.3265 29.155 2.83574C28.352 4.05486 27.3405 5.11679 26.1702 5.97474Z" fill="inherit" data-v-66be4f70 data-v-66be4f70></path></svg></a><a rel="noopener noreferrer" href="https://github.com/neonevm/neon-evm" target="_blank" class="w-32px h-32px flex items-center mr-8 fill-black" data-v-66be4f70><svg width="26" height="24" viewBox="0 0 26 24" fill="inherit" xmlns="http://www.w3.org/2000/svg" data-v-66be4f70 data-v-66be4f70><path fill-rule="evenodd" clip-rule="evenodd" d="M13.2492 0C6.4567 0 0.947266 5.50943 0.947266 12.3019C0.947266 17.7358 4.49444 22.3396 9.32462 24C9.9284 24.0755 10.1548 23.6981 10.1548 23.3962C10.1548 23.0943 10.1548 22.3396 10.1548 21.283C6.75859 22.0377 6.00387 19.6226 6.00387 19.6226C5.47557 18.1887 4.64538 17.8113 4.64538 17.8113C3.5133 17.0566 4.72085 17.0566 4.72085 17.0566C5.9284 17.1321 6.60764 18.3396 6.60764 18.3396C7.73972 20.2264 9.47557 19.6981 10.1548 19.3962C10.2303 18.566 10.6076 18.0377 10.9095 17.7359C8.19255 17.434 5.32462 16.3774 5.32462 11.6226C5.32462 10.2642 5.77745 9.20755 6.60764 8.30189C6.53217 8.07547 6.07934 6.79245 6.75859 5.13208C6.75859 5.13208 7.81519 4.83019 10.1548 6.41509C11.1359 6.11321 12.1925 6.03774 13.2492 6.03774C14.3058 6.03774 15.3624 6.18868 16.3435 6.41509C18.6831 4.83019 19.7397 5.13208 19.7397 5.13208C20.419 6.79245 19.9661 8.07547 19.8907 8.37736C20.6454 9.20755 21.1737 10.3396 21.1737 11.6981C21.1737 16.4528 18.3058 17.434 15.5888 17.7359C16.0416 18.1132 16.419 18.8679 16.419 20C16.419 21.6604 16.419 22.9434 16.419 23.3962C16.419 23.6981 16.6454 24.0755 17.2492 24C22.1548 22.3396 25.6265 17.7358 25.6265 12.3019C25.551 5.50943 20.0416 0 13.2492 0Z" fill="inherit" data-v-66be4f70 data-v-66be4f70></path></svg></a><a rel="noopener noreferrer" href="http://discord.com/invite/neonevm" target="_blank" class="w-32px h-32px flex items-center mr-8 fill-black" data-v-66be4f70><svg width="30" height="24" viewBox="0 0 30 24" fill="inherit" xmlns="http://www.w3.org/2000/svg" data-v-66be4f70 data-v-66be4f70><path d="M28.3547 10.2062C27.1688 6.14713 25.8315 4.04982 25.8099 4.01219C25.7337 3.9195 23.8439 1.66647 19.2893 0L18.6874 1.6325C20.8542 2.42532 22.3915 3.39253 23.2369 4.01747C20.7129 3.26656 17.7102 2.80666 15.0508 2.80666C12.3915 2.80666 9.38882 3.26656 6.86479 4.01747C7.71017 3.39259 9.24742 2.42532 11.4142 1.6325L10.8124 0C6.25781 1.66647 4.36804 3.9195 4.29181 4.01219C4.27023 4.04982 2.93285 6.14713 1.74706 10.2062C0.604219 14.118 0.170066 19.6363 0.154297 19.8575C0.256129 20.0162 2.59826 24 8.98126 24L10.5992 21.6659C8.78656 21.1864 7.05815 20.4132 5.47597 19.364L6.44326 17.9162C8.99575 19.6088 11.9722 20.5036 15.0508 20.5036C18.1295 20.5036 21.1059 19.6088 23.6584 17.9162L24.6257 19.364C23.0436 20.4132 21.3151 21.1864 19.5025 21.6659L21.1204 24C27.5034 24 29.8456 20.0162 29.9474 19.8575C29.9316 19.6363 29.4975 14.118 28.3547 10.2062ZM11.0149 14.756H9.26924V11.8574H11.0149V14.756ZM20.8325 14.756H19.0868V11.8574H20.8325V14.756Z" fill="inherit" data-v-66be4f70 data-v-66be4f70></path></svg></a><a rel="noopener noreferrer" href="https://medium.com/@neon_evm" target="_blank" class="w-32px h-32px flex items-center mr-8 fill-black" data-v-66be4f70><svg width="43" height="24" viewBox="0 0 43 24" fill="inherit" xmlns="http://www.w3.org/2000/svg" data-v-66be4f70 data-v-66be4f70><path d="M23.7931 12.0002C23.7931 18.6275 18.4667 24 11.8967 24C5.32674 24 0 18.6263 0 12.0002C0 5.37409 5.32633 0 11.8967 0C18.4672 0 23.7931 5.37288 23.7931 12.0002Z" fill="inherit" data-v-66be4f70 data-v-66be4f70></path><path d="M36.843 12.0004C36.843 18.2386 34.1799 23.2976 30.8947 23.2976C27.6095 23.2976 24.9463 18.2386 24.9463 12.0004C24.9463 5.76219 27.6091 0.703125 30.8943 0.703125C34.1795 0.703125 36.8426 5.76057 36.8426 12.0004" fill="inherit" data-v-66be4f70 data-v-66be4f70></path><path d="M42.1818 12.0034C42.1818 17.5913 41.2453 22.1239 40.0897 22.1239C38.9341 22.1239 37.998 17.5925 37.998 12.0034C37.998 6.41427 38.9345 1.88281 40.0897 1.88281C41.2449 1.88281 42.1818 6.41386 42.1818 12.0034Z" fill="inherit" data-v-66be4f70 data-v-66be4f70></path></svg></a></div> <div class="md:w-2/3 flex flex-col sm:flex-row sm:justify-center md:justify-end sm:items-center text-sm pb-20 md:pb-0 sm:pb-8 sm:order-0 md:order-1" data-v-66be4f70><span class="mb-8 sm:mb-0 sm:mr-4 text-black" data-v-66be4f70>All rights reserved © 2022</span> <ul class="flex flex-col sm:flex-row items-start" data-v-66be4f70><li class="my-1 sm:ml-4 text-magenta hover:text-purple_link" data-v-66be4f70><a href="terms.html" data-v-66be4f70>Terms Of Use</a></li><li class="my-1 sm:ml-4 text-magenta hover:text-purple_link" data-v-66be4f70><a href="cookie-policy.html" data-v-66be4f70>Cookie Policy</a></li><li class="my-1 sm:ml-4 text-magenta hover:text-purple_link" data-v-66be4f70><a href="disclaimer.html" data-v-66be4f70>Disclaimer</a></li><li class="my-1 sm:ml-4 text-magenta hover:text-purple_link" data-v-66be4f70><a href="privacy-policy.html" data-v-66be4f70>Privacy</a></li></ul></div></div></div> <!----></div></div></div><script>window.__NUXT__=(function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y){return {layout:"default",data:[{page:{slug:"privacy-policy",description:"This Privacy Policy for Neon Protocol Ltd (address: Jayla Place, 2nd Floor, Road Town, Tortola, British Virgin Islands VG1110; BVI COMPANY NUMBER: 2112318)",title:"Privacy Policy",toc:[],body:{type:"root",children:[{type:b,tag:e,props:{},children:[{type:a,value:"Last updated: 8.06.2023"}]},{type:a,value:c},{type:b,tag:"hr",props:{},children:[]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"1. INTRODUCTION"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"1.1. This Privacy Policy for Neon Protocol Ltd (“"},{type:b,tag:d,props:{},children:[{type:a,value:"Neon"}]},{type:a,value:s},{type:b,tag:d,props:{},children:[{type:a,value:"we"}]},{type:a,value:s},{type:b,tag:d,props:{},children:[{type:a,value:"us"}]},{type:a,value:s},{type:b,tag:d,props:{},children:[{type:a,value:"our"}]},{type:a,value:"”), a legal entity established and existed in accordance with the laws of Cayman Islands, having a registered office at Jayla Place, 2nd Floor, Road Town, Tortola, British Virgin Islands VG1110, BVI COMPANY NUMBER: 2112318."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"1.2.  This Privacy Policy describes how Neon may process your personal data (as defined below). Please take a moment to read this Privacy Policy carefully. This applies to the personal data we collect:"}]},{type:a,value:c},{type:b,tag:k,props:{},children:[{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"on this Website (“"},{type:b,tag:d,props:{},children:[{type:a,value:"Website"}]},{type:a,value:"”), which Neon owns and operates;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"when you access or use our applications and services;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"when you intentionally provide us with information, which contains your personal data (e.g. by\nsending us a message by the email)."}]},{type:a,value:c}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"1.3.  By accessing \u002F using our Website, applications and other services (hereinafter collectively referred as “"},{type:b,tag:d,props:{},children:[{type:a,value:"Services"}]},{type:a,value:"”) you confirm that you understand that processing of your personal data (including transfer and disclosure) will be governed by this Privacy Policy. If you do not agree with the terms and conditions of this Privacy Policy, you must immediately stop using any of our Services and contact us so that we can take the best efforts in regard to deleting \u002F restricting \u002F anonymizing of your personal data we can control (if applicable)."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"1.4.  This Privacy Policy is one of the documents that may govern the legal relationship between you and Neon. This Privacy Policy supplements other documents, which governs the provision of our Services (including "},{type:b,tag:C,props:{to:t},children:[{type:a,value:u}]},{type:a,value:") and should be read in conjunction with them."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"1.5. If you have any questions related to the processing of your personal data, you can write to our legal and compliance team at "},{type:b,tag:m,props:{href:"mailto:legal@neonevm.org"},children:[{type:a,value:"legal@neonevm.org"}]},{type:a,value:v}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"2. WHAT TYPES OF INFORMATION WE COLLECT?"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"2.1.  "},{type:b,tag:d,props:{},children:[{type:a,value:"What the personal data is."}]},{type:a,value:" “Personal data” means any information that relates to an identified or identifiable living individual and other information about the person or related to the person. Different pieces of information, which collected together can lead to the identification of a particular person, also constitute personal data."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"2.2.  "},{type:b,tag:d,props:{},children:[{type:a,value:"Categories of personal data that we process in relation to service provision to our users"}]},{type:a,value:" . We\ngenerally process different kinds of personal data which we have grouped together as follows:"}]},{type:a,value:c},{type:b,tag:k,props:{},children:[{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Identity Data"}]},{type:a,value:" includes your name, gender, photo, title, username and similar information;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Contact Data"}]},{type:a,value:" includes email address, telephone number and postal address and\u002For similar\ninformation;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Blockchain and Transaction Data"}]},{type:a,value:" includes crypto wallet address, public blockchain data\nabout your transactions and similar information;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Technical Data"}]},{type:a,value:" includes device identifiers, browser version and type, IP address and similar\ninformation;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Usage Data"}]},{type:a,value:" such as how you use our Services, this also includes information we or others\ncollect about you from cookies and similar tracking technologies (e.g. web beacons and pixels);"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Marketing and Communications Data"}]},{type:a,value:" includes your preferences in relation to receiving\nmarketing materials, your communication preferences and similar information;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Other Data"}]},{type:a,value:" such as any other data generated (obtained) in the course of our interaction with\nyou (e.g., your directions or instructions given to us), customer’s feedback, survey results and\nsimilar information."}]},{type:a,value:c}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"2.3.  "},{type:b,tag:d,props:{},children:[{type:a,value:"Anonymized data."}]},{type:a,value:" We may anonymize your personal data or aggregate it (“"},{type:b,tag:d,props:{},children:[{type:a,value:"Anonymized data"}]},{type:a,value:"”),\nso that it can no longer be associated with you or identify you, in which case we may use such\nAnonymized data for any purposes or share it with another person without any restrictions."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"3. HOW WE COLLECT YOUR INFORMATION"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"3.1 "},{type:b,tag:d,props:{},children:[{type:a,value:"Information you provide to us directly."}]},{type:a,value:" We collect personal data that is relevant to our relationship with you. We may collect information by the direct interaction with you, this includes personal data you provide when you:"}]},{type:a,value:c},{type:b,tag:k,props:{},children:[{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"register in our Services;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"participate in our surveys or polls;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"fill out any forms;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"enter in any agreements with;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"manage marketing emails;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"contacting for help or technical support;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"submit your personal data to us for any other reason."}]},{type:a,value:c}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"Information,   collected   by   direct   interaction   with   you   generally   includes   the   following   types of personal data:"}]},{type:a,value:c},{type:b,tag:k,props:{},children:[{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"Identity Data;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"Contact Data;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"Blockchain and Transaction Data;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"Marketing and Communications Data;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"Other Data."}]},{type:a,value:c}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"3.2 "},{type:b,tag:d,props:{},children:[{type:a,value:"Information we  collect from  you automatically"}]},{type:a,value:". While interacting with our Services, we may collect some information containing your personal data automatically. Information collected automatically includes Technical and Usage Data. We may collect this information by ways of monitoring, which are part of our Services, including cookies and similar technologies."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"3.3 "},{type:b,tag:d,props:{},children:[{type:a,value:"Information we receive about you from the third parties and other sources"}]},{type:a,value:". We may receive\ninformation about you from third parties or other sources:"}]},{type:a,value:c},{type:b,tag:k,props:{},children:[{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"Usage and Technical Data may be provided by our partners;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"we   may   collect   Blockchain   and   Transaction   Data   by   viewing   public   blockchains   and\ntransactions are made in them;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"in some cases your personal data, including but not limited Identity and Contact Data may be\nprovided to us by the third parties, which refers to you (e.g. for business purposes) or acts in\nyour interest."}]},{type:a,value:c}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"4. HOW WE USE YOUR PERSONAL DATA"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"4.1.  "},{type:b,tag:d,props:{},children:[{type:a,value:D}]},{type:a,value:". Each data processing activity will be carried out for a specific purpose (generally\ndetermined by the nature of our business or our legal obligations) and will be based on at least one\nof the following lawful grounds:"}]},{type:a,value:c},{type:b,tag:k,props:{},children:[{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"when we have your consent;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"when we need to comply with legal obligations (statutory or based on common law);"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"when it is required to establish and perform an obligation, which is based on a contract;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"when we have a legitimate interest."}]},{type:a,value:c}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"4.2.  In order to provide you with a more detailed understanding of the purposes of data processing, we\nhave set out the purposes of processing in the table below, accompanied by examples of activities,\nfor which personal data is processed and the legal basis on which we carry out the relevant\nprocessing:"}]},{type:a,value:"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},{type:b,tag:"table",props:{},children:[{type:b,tag:"thead",props:{},children:[{type:b,tag:l,props:{},children:[{type:b,tag:w,props:{align:i},children:[{type:a,value:"Purpose"}]},{type:b,tag:w,props:{},children:[{type:a,value:"Example of activity"}]},{type:b,tag:w,props:{align:i},children:[{type:a,value:"Legal basis for processing"}]}]}]},{type:b,tag:"tbody",props:{},children:[{type:b,tag:l,props:{},children:[{type:b,tag:g,props:{align:i},children:[{type:a,value:"Providing the services to the general audience"}]},{type:b,tag:g,props:{},children:[{type:a,value:"- Account creation (if applicable"},{type:b,tag:h,props:{},children:[]},{type:a,value:"- Enable general audience to access and use our services"}]},{type:b,tag:g,props:{align:i},children:[{type:a,value:"(a) Contract performance"},{type:b,tag:h,props:{},children:[]},{type:a,value:"(b) Consent (additionally)"}]}]},{type:b,tag:l,props:{},children:[{type:b,tag:g,props:{align:i},children:[{type:a,value:"Providing support for our users and ensure quality control"}]},{type:b,tag:g,props:{},children:[{type:a,value:"- Creating bug tickets"},{type:b,tag:h,props:{},children:[]},{type:a,value:"- Bugs fixing and troubleshooting"},{type:b,tag:h,props:{},children:[]},{type:a,value:"Receive and answer your technical questions"}]},{type:b,tag:g,props:{align:i},children:[{type:a,value:"(a) Contract performance "},{type:b,tag:h,props:{},children:[]},{type:a,value:E}]}]},{type:b,tag:l,props:{},children:[{type:b,tag:g,props:{align:i},children:[{type:a,value:"Product researches and development"}]},{type:b,tag:g,props:{},children:[{type:a,value:"- Providing opportunities to participate in product tests (including faucet)"},{type:b,tag:h,props:{},children:[]},{type:a,value:"- Research and development of our products and services "},{type:b,tag:h,props:{},children:[]},{type:a,value:" - Allow you voting on certain issues as a part of community"}]},{type:b,tag:g,props:{align:i},children:[{type:a,value:r},{type:b,tag:h,props:{},children:[]},{type:a,value:"(b) Contract (if applicable)"},{type:b,tag:h,props:{},children:[]},{type:a,value:F}]}]},{type:b,tag:l,props:{},children:[{type:b,tag:g,props:{align:i},children:[{type:a,value:"Conducting marketing activities and delivering advertising to our users"}]},{type:b,tag:g,props:{},children:[{type:a,value:"- Send you advertising information"},{type:b,tag:h,props:{},children:[]},{type:a,value:"- Show you the most relevant ads and explore your interests"}]},{type:b,tag:g,props:{align:i},children:[{type:a,value:"(a) Consent "},{type:b,tag:h,props:{},children:[]},{type:a,value:x}]}]},{type:b,tag:l,props:{},children:[{type:b,tag:g,props:{align:i},children:[{type:a,value:G},{type:b,tag:h,props:{},children:[]},{type:a,value:H}]},{type:b,tag:g,props:{},children:[{type:a,value:I},{type:b,tag:h,props:{},children:[]},{type:a,value:J}]},{type:b,tag:g,props:{align:i},children:[{type:a,value:K},{type:b,tag:h,props:{},children:[]},{type:a,value:x}]}]},{type:b,tag:l,props:{},children:[{type:b,tag:g,props:{align:i},children:[{type:a,value:G},{type:b,tag:h,props:{},children:[]},{type:a,value:H}]},{type:b,tag:g,props:{},children:[{type:a,value:I},{type:b,tag:h,props:{},children:[]},{type:a,value:J}]},{type:b,tag:g,props:{align:i},children:[{type:a,value:K},{type:b,tag:h,props:{},children:[]},{type:a,value:x}]}]},{type:b,tag:l,props:{},children:[{type:b,tag:g,props:{align:i},children:[{type:a,value:"Providing security for our services and integrity of our business"}]},{type:b,tag:g,props:{},children:[{type:a,value:"- Audit of our services"},{type:b,tag:h,props:{},children:[]},{type:a,value:"- Fraud prevention activities"}]},{type:b,tag:g,props:{align:i},children:[{type:a,value:r}]}]},{type:b,tag:l,props:{},children:[{type:b,tag:g,props:{align:i},children:[{type:a,value:"Compliance   with   our   legal   and ethical   obligations;"},{type:b,tag:h,props:{},children:[]},{type:a,value:"  establish   a legal protection for our business"},{type:b,tag:h,props:{},children:[]},{type:a,value:" or using the information for public safety"}]},{type:b,tag:g,props:{},children:[{type:a,value:"- Identity identification and KYC"},{type:b,tag:h,props:{},children:[]},{type:a,value:"- Reporting officials about crime and suspicious activity"},{type:b,tag:h,props:{},children:[]},{type:a,value:"- Restricting access to the forum (e.g. in the case of hate speech)"},{type:b,tag:h,props:{},children:[]},{type:a,value:"- Keeping records for litigation purposes"}]},{type:b,tag:g,props:{align:i},children:[{type:a,value:"(a) Legal obligations"},{type:b,tag:h,props:{},children:[]},{type:a,value:E}]}]},{type:b,tag:l,props:{},children:[{type:b,tag:g,props:{align:i},children:[{type:a,value:"Sending notifications"}]},{type:b,tag:g,props:{},children:[{type:a,value:"- Sending you newsletter"},{type:b,tag:h,props:{},children:[]},{type:a,value:"- Report you on current status of our orders"},{type:b,tag:h,props:{},children:[]},{type:a,value:"- Sending you data breach notification"}]},{type:b,tag:g,props:{align:i},children:[{type:a,value:r},{type:b,tag:h,props:{},children:[]},{type:a,value:"(b) Legal obligations (if applicable)"},{type:b,tag:h,props:{},children:[]},{type:a,value:F}]}]},{type:b,tag:l,props:{},children:[{type:b,tag:g,props:{align:i},children:[{type:a,value:"To develop our business and (or) participate in transactions"}]},{type:b,tag:g,props:{},children:[{type:a,value:"- To enable us participate in market transactions (corporate acquisitions, transfer of business)"}]},{type:b,tag:g,props:{align:i},children:[{type:a,value:r}]}]}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"4.3.  "},{type:b,tag:d,props:{},children:[{type:a,value:"Purpose limitation."}]},{type:a,value:" We have tried to tell you about the purposes for the processing your personal\ndata in clear and transparent way. We accept the possibility that new purposes for processing of\nyour personal data may arise in the process of our interaction with you. We will only process data\nfor a new purpose if:"}]},{type:a,value:c},{type:b,tag:k,props:{},children:[{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"the new purpose is compatible with the original purpose; or"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"the new purpose of data processing is required by the applicable laws; or"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"we have your consent to process personal data for a new purpose.\nAs   a   general   rule,   if   the   new   purpose   is   significantly   different   from   the   original   goal   or   looks\nunexpected, we will not consider it as “compatible”."}]},{type:a,value:c}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"5. MARKETING. COOKIES AND ANALITICS."}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"5.1.  We   may   use   your   personal   data   for   marketing   purposes.   If   you   receive   direct   marketing\ncommunications, you "},{type:b,tag:d,props:{},children:[{type:a,value:"always"}]},{type:a,value:" have the right to unsubscribe from it. Please note that opting out of\nreceiving marketing communications does not affect other notices that may be sent to you from\ntime to time."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"5.2.  In the course of our interaction with you we may use cookies and similar technologies (“"},{type:b,tag:d,props:{},children:[{type:a,value:"Cookies"}]},{type:a,value:"”). Cookies, in particular, helps to identify you, analyze your preferences, improve and secure the Service and to personalize content and features and tailor advertisement. Please read our "},{type:b,tag:C,props:{to:t},children:[{type:a,value:u}]},{type:a,value:". For further information about cookies, visit "},{type:b,tag:m,props:{href:"https:\u002F\u002Fwww.allaboutcookies.org",rel:[n,o,p],target:q},children:[{type:a,value:"www.allaboutcookies.org"}]},{type:a,value:v}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"5.3.  To understand how users interact with our Services, we may use our own or third-party data\nanalysis solutions (such as Google analytics). You may exercise choices regarding the use of\ncookies from Google Analytics by going to "},{type:b,tag:m,props:{href:L,rel:[n,o,p],target:q},children:[{type:a,value:L}]},{type:a,value:v}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"6. CHILDREN’S PERSONAL DATA"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"6.1. Our Services are not intended for children. We do not knowingly solicit or collect information from the persons under the age of 18."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"6.2. If you are a parent or guardian of a child and believe that we have collected child’s personal data, please contact us. If we discover that personal data relating to a child is under our control, we will take steps to delete or otherwise “forget” such information."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"7. HOW WE DISCLOSE YOUR PERSONAL DATA"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"7.1. In the course of conducting our business, in order to execute the purposes of data processing describing above we may share your personal data with the third parties. For example, we may share your personal data to the following categories of recipients as follows:"}]},{type:a,value:c},{type:b,tag:k,props:{},children:[{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"To our subsidiaries and affiliates"}]},{type:a,value:": we may share your personal data with our subsidiaries and\naffiliates if it necessary to fulfil the purposes of data processing (e.g. by distribution of responsibilities within Neon and its subsidiaries and affiliates in order to provide you the possible service and customer support);"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"To professional advisers"}]},{type:a,value:": we may share your personal data with professional advisers such as lawyers, auditors and accountants (e.g. to comply with applicable laws or obtain a legal advice or professional service);"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"To service providers and suppliers"}]},{type:a,value:": we may share your personal data with those who need it to do work for us. Typically, this category of recipients includes independent contractors (e.g. hosting providers, data analytics provides, marketing providers, etc.);"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"To   government   authorities"}]},{type:a,value:":   we  may   share   your   personal   data   with   law   enforcement\nagencies, when it needed to comply the law;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Protection and safety"}]},{type:a,value:": we may share your personal data with social services (e.g. emergency\nor rescue service) and government bodies (e.g. courts and police) if it necessary to protect the\nhealth and safety of you or other people, our business or to participate in legal or administrative\nproceedings;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Business  Transfers"}]},{type:a,value:":  we  may  share your  personal  data  when  it  is  necessary  for business\ntransactions, such as a sale or transfer of a business, financing, bankruptcy, or any negotiation\nof   a   deal  that   affects  our   business  (in   whole  or  in   part)  ("},{type:b,tag:d,props:{},children:[{type:a,value:"“Business  Transactions”"}]},{type:a,value:"),   if  the\nBusiness Transaction cannot be normally completed without disclosure of personal data;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Blockchain and public display"}]},{type:a,value:": we may publicly display your personal data when you make it\navailable   through   the   blockchain   or   provide   it   for   the   purposes,   which   otherwise   requires\ndisplaying your personal data on the multiple devices (e.g. when you use our social platforms)."}]},{type:a,value:c}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"7.2.  At your instruction or request and (or) based on your direct consent (if required) we may share your\npersonal data with another categories of recipients."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"8. INTERNATIONAL DATA TRANSFER"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"8.1.  "},{type:b,tag:d,props:{},children:[{type:a,value:"International transfer of personal data"}]},{type:a,value:". As a Cayman-based company we process the personal\ndata, mainly, under the rules and regulations of the Cayman Islands. Whenever we transfer personal data to other jurisdictions, we will ensure that this information is transferred in accordance with this Policy and as permitted by applicable data protection laws."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"8.2.  "},{type:b,tag:d,props:{},children:[{type:a,value:"Safeguards"}]},{type:a,value:". Please be aware, that your personal data may be stored\u002Ftransferred outside the jurisdiction in which such personal data was collected. Unfortunately, not all countries have an adequate level of personal data protection. In such case we will provide appropriate safeguards for the personal data transfers, where possible (e.g. by using technical and\u002For contractual measures)."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"8.3.  "},{type:b,tag:d,props:{},children:[{type:a,value:"Derogations in the specific situations"}]},{type:a,value:". We may derogate from using of foregoing safeguards (where permitted by law), especially in the context of blockchain-based Services including (without limitation) when the data transfer is required for important reasons of public interest or in the interest of the data subject, where an applicable contract obligation exists."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"9. SECURITY MEASURES"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"9.1. We take steps to ensure that your information is treated securely. We protect your information using physical, technical, and administrative security measures to reduce the risks of loss, unauthorized access and disclosure, taking into account the nature, scope, context and purpose of the data processing, and the existing level of risks."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"9.2. Unfortunately, we are unable guarantee that your personal data will always be secure, since almost any system for keeping \u002F transmitting information can be hacked or may have vulnerabilities. We will notify you and any applicable regulator of a suspected data security breach where we are legally required to do so."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"10. RETENTION OF PERSONAL DATA"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"10.1. "},{type:b,tag:d,props:{},children:[{type:a,value:D}]},{type:a,value:". Basically, personal data is stored or otherwise processed only during that time when\nthere is a business or compliance reason to do so."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"10.2. "},{type:b,tag:d,props:{},children:[{type:a,value:"Retention Period"}]},{type:a,value:". Processing of personal data that Neon collects, stores or otherwise use will take\nplace during the specific period, during which there is a need to access such data in order to fulfill\none or more processing purposes ("},{type:b,tag:d,props:{},children:[{type:a,value:"“Retention Period”"}]},{type:a,value:"). In our interaction with personal data, we\nwill use the principle of data minimization, which means that we strive to (i) minimize the amount of\npersonal data collected; and (ii) minimize the length of the Retention Period."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"10.3. "},{type:b,tag:d,props:{},children:[{type:a,value:"Length of the Retention Period"}]},{type:a,value:". The length of the Retention Period depends on the purposes of\ndata processing, taking into account the potential risk of harm from the personal data breach. Thus,\nwe   will   use   your   personal  data   only   as  long   as  necessary   to   fulfil   the   purposes   for   which   the\ninformation is collected, unless the applicable laws require longer length of the Retention Period.\nAmong other things, this means that we may retain records of you for a period of time where we\nhave legal grounds, even if you have ended your interaction with us."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"11. THIRD PARTIES AND THEIR SERVICES"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"11.1. This  Website   or   other  Services   provided   by  Neon   may   refer   or   contain   links  to   the   third-party\nservices, which includes but not limited to the websites, plug-ins and applications (“"},{type:b,tag:d,props:{},children:[{type:a,value:"Third-Party\nServices"}]},{type:a,value:"”)."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"11.2. Please note that we cannot control Third-Party Services and its methods and ways of using your personal data, even some our own Services are combined or intended to be used together with such Third-Party Services. We encourage you to review relevant third-party privacy notices that govern their processing of your personal data before any interaction with Third-Party Services."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"12. BLOCKCHAIN & PRIVACY"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"12.1. In the process of interacting with you, Neon may provide you with blockchain-based Services or\nrefers   to   the   blockchain-based   services   owned   and   operated   by   the   third   parties.   In   general,\nBlockchain can be described as a technology for distributed data storage. This means that the data\nrecords in  the  blockchain, by the general rule,  are (i)  immutable; (ii) decentralized (controlled \u002F\nstored by many persons); and (iii) publicly available."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"12.2. In particular, blockchain has the following impact on your privacy:"}]},{type:a,value:c},{type:b,tag:k,props:{},children:[{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"Immutability: in general, personal data placed in the blockchain cannot be deleted;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"Decentralization:   there   is   no   single   person   who   administer   the   blockchain   data,   due   to\ndecentralized nature of the blockchain records (blockchain is governed by the multiple voices,\nnot one);"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"Public Availability: blockchain-stored information (including any personal data, if any) can be\neasily accessed by any interested person."}]},{type:a,value:c}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"12.3. Contrary   to   popular   misconception,   blockchain   transactions,   generally,   cannot   be   described   as\n“anonymous”. Information from the blockchain can be compared to other publicly \u002F non-publicly\ninformation   obtained   from   other   sources.   In   particular,   this   may   lead   to   the   de-anonymization\n(disclosure of personality) and \u002F or disclosure of your financial status and transactions."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"12.4. Please do not use blockchain technology if the possible impact on your privacy does not meet your\nexpectations. If you are unfamiliar with blockchain technology, we strongly encourage you to do\nyour   own   research   or   seek   a   professional   advice   on   how   the   blockchain   may   impact   on   your\nprivacy."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"13. YOUR RIGHTS"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"13.1. "},{type:b,tag:d,props:{},children:[{type:a,value:"Rights you may enjoy."}]},{type:a,value:" Depending on the jurisdiction, in which you reside and (or) we provide\nServices, you may have certain rights regarding the control of your privacy. For example, GDPR and similar laws provide you the following rights:"}]},{type:a,value:c},{type:b,tag:k,props:{},children:[{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Access"}]},{type:a,value:": the right to require us provide you with confirmation of data processing activity, a copy\nof the personal data processed and supplementary information, such as the terms under which\nwe process your personal data (these terms are already described in this privacy policy);"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Rectification"}]},{type:a,value:": the right to require us correct incorrect personal data or complete it;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Erasure"}]},{type:a,value:" (right “to be forgotten”): the right to require us to erase your personal data;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Restriction of processing"}]},{type:a,value:": the right to require us to restrict using of your personal data in\ncertain   circumstances   (when   processing   is   restricting,   we,   generally,   may   only   store   your\npersonal data and will refrain from most other processing activities);"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Data portability"}]},{type:a,value:": the right to require use to provide you with a copy of your personal data in\nstructured, commonly used and machine-readable format;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Object"}]},{type:a,value:": the right to object  to the processing of their personal data in certain circumstances\n(have   an   absolute   right   to   stop   direct   marketing   communications   with   you,   or,   in   certain\ncircumstances, may object against processing, which is based on legitimate interests);"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"Withdrawal"}]},{type:a,value:": the right to withdraw your consent to the processing of personal data (this will not\naffect the lawfulness of processing based on consent before its withdrawal)."}]},{type:a,value:c}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"13.2. We will not use any automated individual decision-making (i.e. a decision making process, which used solely automated means without any human involvement), including profiling, which produces legal effects concerning your rights or which may significantly affect you, unless:"}]},{type:a,value:c},{type:b,tag:k,props:{},children:[{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"it is necessary for the entry into or performance of a contract;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"it is authorized by the applicable laws;"}]},{type:a,value:c},{type:b,tag:f,props:{},children:[{type:a,value:"it is based on the individual’s explicit consent."}]},{type:a,value:c}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"13.3. We will be happy if you contact us and we will consider the opportunity to help you exercise your rights. Please note that, in general, these rights are not absolute and requests to exercise them may be denied in certain circumstances."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"14. RIGHT TO LODGE A COMPLAINT"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"14.1. If   you   believe   that   we   are   violating   your   privacy   rights   or   handling   your   personal   data\ninappropriately, you have the right to file a complaint with your national data protection authority\n("},{type:b,tag:d,props:{},children:[{type:a,value:"“Data Protection Authority”"}]},{type:a,value:") or bring a suit in the court. We would be happy if you contact us\nbefore doing this so that we can take steps to resolve your problem or clear your doubts regarding\nyour personal data treatment."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"14.2. Contact details of Data Protection Authority in several jurisdictions can be found by the links below:"}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"For individuals in the EU"}]},{type:a,value:y},{type:b,tag:m,props:{href:M,rel:[n,o,p],target:q},children:[{type:a,value:M}]},{type:a,value:N},{type:b,tag:h,props:{},children:[]},{type:a,value:c},{type:b,tag:d,props:{},children:[{type:a,value:"For individuals in the UK"}]},{type:a,value:y},{type:b,tag:m,props:{href:O,rel:[n,o,p],target:q},children:[{type:a,value:O}]},{type:a,value:N},{type:b,tag:h,props:{},children:[]},{type:a,value:c},{type:b,tag:d,props:{},children:[{type:a,value:"For individuals in the Cayman Islands"}]},{type:a,value:y},{type:b,tag:m,props:{href:P,rel:[n,o,p],target:q},children:[{type:a,value:P}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:b,tag:d,props:{},children:[{type:a,value:"15. HOW WE UPDATE THIS PRIVACY POLICY"}]}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"15.1. Wereservetherighttoupdateourprivacypracticesforbusiness,legaloroperationalreasonsatany time. We will provide you with the most actual information on how we treat your personal data by updating this Privacy Policy."}]},{type:a,value:c},{type:b,tag:e,props:{},children:[{type:a,value:"15.2. We recommend you reviewing the current version of this Privacy Policy, available at the following link "},{type:b,tag:m,props:{href:Q,rel:[n,o,p],target:q},children:[{type:a,value:Q}]},{type:a,value:", to stay up to date with the latest changes. The date the Privacy Policy was last revised is identified at the top of this page. In the event of material changes in our privacy practices, we may additionally notify you (e.g. by placing the notification on the main page of our Website or by email)."}]}]},dir:R,path:z,extension:".md",createdAt:"2023-06-08T11:41:02.058Z",updatedAt:"2023-06-08T11:38:09.000Z"}}],fetch:{},error:j,state:{layout:{socials:[{title:"twitter",url:"https:\u002F\u002Ftwitter.com\u002FNeon_EVM",imageUrl:j},{title:"github",url:"https:\u002F\u002Fgithub.com\u002Fneonevm\u002Fneon-evm",imageUrl:j},{title:"discord",url:"http:\u002F\u002Fdiscord.com\u002Finvite\u002Fneonevm",imageUrl:j},{title:"medium",url:"https:\u002F\u002Fmedium.com\u002F@neon_evm",imageUrl:j}],policies:[{title:"Terms Of Use",url:"\u002Fterms",imageUrl:j},{title:u,url:t,imageUrl:j},{title:"Disclaimer",url:"\u002Fdisclaimer",imageUrl:j},{title:"Privacy",url:z,imageUrl:j}],copyright:"All rights reserved © 2022"},pages:{index:{title:S,subtitle:T,imageUrl:j,name:"index",meta:{title:S,description:T}},developers:{title:U,subtitle:V,imageUrl:j,name:"developers",meta:{title:U,description:V}},community:{title:A,subtitle:j,imageUrl:j,name:"community",meta:{title:A,description:A}},career:{title:W,subtitle:j,imageUrl:j,name:"career",meta:{title:"Career | Neon Labs",description:W}},faq:{title:B,subtitle:j,imageUrl:j,name:"faq",meta:{title:B,description:B}},team:{title:"About Neon",subtitle:X,imageUrl:j,name:"team",meta:{title:"About Team | Neon EVM",description:X}}},vacancies:[],tools:[{name:"Explorer",description:"See transaction info on block explorer",url:"https:\u002F\u002Fneonscan.org\u002F"},{name:"NeonPass",description:"Transfer SPL tokens between Solana and Neon",url:"https:\u002F\u002Fneonpass.live\u002F"},{name:"NeonFaucet",description:"Request Test tokens on Neon devnet",url:"https:\u002F\u002Fneonfaucet.org\u002F"}]},serverRendered:true,routePath:z,config:{contentUrl:Y,docsUrl:"https:\u002F\u002Fdocs.neonfoundation.io\u002F",gaId:"G-GJDCJPLRLD",_app:{basePath:R,assetsPath:"\u002F~\u002Fbackend\u002Fpublic\u002F",cdnURL:j},strapi:{url:Y},http:{}},strapi:{user:j}}}("text","element","\n","strong","p","li","td","br","left",null,"ul","tr","a","nofollow","noopener","noreferrer","_blank","(a) Legitimate interest","”, “","\u002Fcookie-policy","Cookie Policy",".","th","(b) Legitimate interest (if applicable)",": ","\u002Fprivacy-policy","Community | Neon EVM","FAQ | Neon EVM","nuxt-link","In general","(b) Legitimate interest","(c) Consent (additionally)","To use data analytics to improve and develop ","our services and understand the needs of our users","- Analyzing user activity","- Improve our services based on the data we collect","(a) Consent","privacy-policy.html\u002F\u002Ftools.google.com\u002Fdlpage\u002Fgaoptout","privacy-policy.html\u002F\u002Fedpb.europa.eu\u002Fabout-edpb\u002Fboard\u002Fmembers_en"," ","privacy-policy.html\u002F\u002Fico.org.uk\u002Fglobal\u002Fcontact-us\u002F","privacy-policy.html\u002F\u002Fombudsman.ky\u002Fprivacy-policy","privacy-policy.html\u002F\u002Fneonevm.org\u002Fprivacy-policy","\u002F","Neon EVM - Grow with the Best from Two Chains","Neon Labs’s goal is to bring both Solana’s scalability and low transaction costs to the ecosystem of Ethereum dApps, developers, and end-users","Scale Your Ethereum dApps on Solana | Neon EVM","NEON EVM is the first and only solution to scale your Ethereum dApps on Solana","We are Hiring","The goal of Neon Labs is to bring both the scalability and low transaction costs of Solana to the ecosystem of Ethereum dApps, developers, and end-users.","privacy-policy.html\u002F\u002Fcms-neon.neontest.xyz"));</script><script src="_/backend/public/37b1687.js" defer></script><script src="_/backend/public/d05afaf.js" defer></script><script src="_/backend/public/ed00de5.js" defer></script><script src="_/backend/public/38efeaa.js" defer></script><script src="_/backend/public/e66d397.js" defer></script>
+  </body>
+
+<!-- Mirrored from neonevm.org/privacy-policy by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Jun 2023 09:20:21 GMT -->
+</html>

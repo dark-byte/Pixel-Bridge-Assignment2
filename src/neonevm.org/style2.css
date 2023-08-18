@@ -1,0 +1,14 @@
+.logo {
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    clip-path: ellipse();
+    max-height: 30px;
+    margin-right: 10px;
+}
